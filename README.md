@@ -226,6 +226,8 @@ def greet(name):
 greet(Raj)
 ```
 
+The above code will output `Hello Raj!`
+
 ```python
 def area_triangle(base, height):
     return base*height/2
@@ -248,7 +250,7 @@ print(hours, minutes, seconds)
 ```
 The above code will print `1 23 20`
 
-The above code will output `Hello Raj!`
+**You could learn more about `return` keyword by [Clicking Here](#return)**
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
@@ -359,3 +361,4 @@ area = calculate_area(5, 10)
 print(area)
 ```
 This will output the area as `25`
+[**_&#x25B2; Go to Overview_**](#overview)
