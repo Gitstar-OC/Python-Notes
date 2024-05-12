@@ -18,6 +18,7 @@
   - [sorted()](#sorted)
   - [max() and min()](#max-and-min)
   - [Some other built in functions](#this-is-a-link-for-all-built-in-functions-in-python)
+- [Writing good code]() 
 - [Return Statement](#return) 
 
 
@@ -211,6 +212,8 @@ Including comments in your code offers numerous benefits. They significantly imp
 
 - So use comments in your code, it makes your code better.
 
+[**_&#x25B2; Go to Overview_**](#overview)
+
 ## print()
 
 The print() function outputs a specified object to the screen. The print() function is one of the most commonly used functions in Python because it allows you to output any detail from your code.
@@ -376,6 +379,37 @@ This will print `2` as minimum from list and `57` as maximum from list.
 
 - ## [This is a link for all built in functions in python](https://docs.python.org/3/library/functions.html)
 
+## Writing Good Code 
+
+Now, you can understand a good level of code so here's a note from a Great Coder **[Matin Folwer](https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer))**:
+
+**_` Any fool can write code that a computer can understand, Good Programmers write code that humans can understand`_**
+
+What I mean by that will be demonstrated with a small example
+
+```python
+def calculate(d):
+    q = 3.14
+    z = q * (d ** 2)
+    print(z)
+
+calculate(5)
+#Output is 78.5
+```
+
+Now most of the people will not understand in the first time what this code is doing, so now read the below code
+
+```python
+def circle_area(radius):
+    pi = 3.14
+    area = pi * (radius ** 2)
+    print(area)
+
+circle_area(5)
+#Output is 78.5
+```
+
+Now you can understand that the above code is used for measuring area of Circle! _This is what writing good code means `code which others can understand!!`_
 
 ## Return 
 The `return` statement is used to return a value from a function, causing the function to stop executing and return the specified value to the caller. Here are some key points about the `return` statement:
