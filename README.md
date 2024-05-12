@@ -9,6 +9,7 @@
   - [Common Syntax Errors](#common-syntax-errors)
   - [Common Semantic Errors](#common-semantic-errors)
 - [Python Syntax](#python-syntax)
+- [Data Types](#data-types)
 - [Print](#print)
 - [Functions](#functions-in-python)
   - [type()](#type)
@@ -160,6 +161,22 @@ _Namespaces are one honking great idea -- let's do more of those!_
 Finally, it’s helpful to bookmark the [PEP 8 Style Guide for Python](https://peps.python.org/pep-0008/)  so you can reference it as needed. This reading is limited in scope, and PEP 8 is a more exhaustive resource for style-related matters. PEP stands for Python Enhancement Proposals. These are a running catalog of ways to improve or standardize Python as a language. Because Python is open source, PEP offers a framework to guide developers and build consensus around ideas. It’s a useful and trusted resource.
 
 [**_&#x25B2; Go to Overview_**](#overview)
+
+
+
+## Data Types 
+
+In Python, data types are used to represent different kinds of information. Understanding these types is fundamental for effective programming. Here are the common data types:
+
+- **String:** Represents text enclosed in quotes.
+- **Integer:** Represents whole numbers without a decimal part.
+- **Float:** Represents real numbers with a decimal part.
+
+**Mixing Data Types:** Python doesn't allow mixing different data types in calculations. Combining an integer and a string will result in an error.
+
+**Using the Type Function:** The type() function is handy for determining the data type of a value.
+
+**Error Messages:** Errors are common in programming and provide clues to help you fix mistakes. Carefully reading error messages helps in understanding the problem.
 
 ## print()
 
