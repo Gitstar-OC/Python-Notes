@@ -11,12 +11,13 @@
 - [Python Syntax](#python-syntax)
 - [Data Types](#data-types)
 - [Print](#print)
-- [Functions](#functions-in-python)
+- [Function](#functions-in-python)
   - [type()](#type)
   - [str()](#str)
   - [sorted()](#sorted)
   - [max() and min()](#max-and-min)
   - [Some other built in functions](#this-is-a-link-for-all-built-in-functions-in-python)
+- [Return Statement](#return) 
 
 
 [**_&#x25B2; Go to Overview_**](#overview)
@@ -333,3 +334,28 @@ This will print `2` as minimum from list and `57` as maximum from list.
 [**_&#x25B2; Go to Overview_**](#overview)
 
 - ## [This is a link for all built in functions in python](https://docs.python.org/3/library/functions.html)
+
+
+## Return 
+The `return` statement is used to return a value from a function, causing the function to stop executing and return the specified value to the caller. Here are some key points about the `return` statement:
+
+- It can return any type of value, including integers, floats, strings, lists, and dictionaries.
+- If a function lacks a `return` statement, it will return `None` by default.
+- Multiple `return` statements can be used within a function to return different values at different points in the execution.
+- It can control the flow of execution within a function, allowing for early exits based on certain conditions.
+
+```python
+def calculate_area(base, height):
+  """
+  This function calculates the area of a triangle.
+  """
+  area = (base * height) / 2
+  return area
+
+# Call the function and store the result in a variable
+area = calculate_area(5, 10)
+
+# Print the result
+print(area)
+```
+This will output the area as `25`
