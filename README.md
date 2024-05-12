@@ -216,7 +216,7 @@ Functions in Python are reusable blocks of code that perform a specific task. Th
 
 Functions in Python are defined using the `def` keyword followed by the function name and parentheses containing any parameters. The function body is indented beneath the function definition.
 
-Example:
+Examples:
 
 ```python
 def greet(name):
@@ -224,6 +224,28 @@ def greet(name):
 
 greet(Raj)
 ```
+
+```python
+def area_triangle(base, height):
+    return base*height/2
+area_a = area_triangle(5,4)
+area_b = area_triangle(7,3)
+sum = area_a + area_b
+print("The sum of both areas is: " + str(sum))
+```
+The above code will print out `The sum of both areas is: 20.5`
+
+```python
+def convert_seconds(seconds):
+    hours = seconds // 3600
+    minutes = (seconds - hours * 3600) // 60
+    remaining_seconds = seconds - hours * 3600 - minutes * 60
+    return hours, minutes, remaining_seconds
+ 
+hours, minutes, seconds = convert_seconds(5000)
+print(hours, minutes, seconds)
+```
+The above code will print `1 23 20`
 
 The above code will output `Hello Raj!`
 
