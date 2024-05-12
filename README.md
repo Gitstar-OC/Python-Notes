@@ -10,6 +10,7 @@
   - [Common Semantic Errors](#common-semantic-errors)
 - [Python Syntax](#python-syntax)
 - [Data Types](#data-types)
+- [Comments](#comment)
 - [Print](#print)
 - [Function](#functions-in-python)
   - [type()](#type)
@@ -196,6 +197,19 @@ In Python, data types are used to represent different kinds of information. Unde
 **Using the Type Function:** The type() function is handy for determining the data type of a value.
 
 **Error Messages:** Errors are common in programming and provide clues to help you fix mistakes. Carefully reading error messages helps in understanding the problem.
+## Comment
+
+```python
+#This is a single line comment in python
+"""
+This is how you can
+write Multiline comment in
+Python
+"""
+```
+Including comments in your code offers numerous benefits. They significantly improve readability by providing additional context and explanations, making it easier for developers to understand the purpose and functionality of different sections. Comments serve as invaluable documentation, clarifying the logic, algorithms, and complex operations performed, thus aiding in debugging and troubleshooting. 
+
+- So use comments in your code, it makes your code better.
 
 ## print()
 
@@ -250,7 +264,7 @@ print(hours, minutes, seconds)
 ```
 The above code will print `1 23 20`
 
-You must you `functions` to save space and time as shown in the below example of code reusability
+You must use `functions` to save space and time as shown in the below example of code reusability
 ```python
 name = "Kay"
 number = len(name) * 9
