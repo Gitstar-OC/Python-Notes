@@ -1,31 +1,27 @@
 # Complete Python Notes from Scratch!
 
+> You can click on (&#x25B2;) this arrow to head back to the overview section, it is added at the end of each part. 
+
 ## Overview
 
-- ### [Quicknote](#quicknote-1)
-
-- ### [Syntax and Code Blocks](#Syntax-and-Code-Blocks)
-
-  - #### [Common Syntax Errors](#common-semantic-errors-1)
-
-  - #### [Common Semantic Errors](#common-semantic-errors-1)
-
-- ### [Print](#print-1)
-
-- ### [Functions](#functions-in-python)
-  
-  - #### [type()](#type-1)
-
-  - #### [str()](#str-1)
-
-  - #### [sorted()](#sorted-1)
-
-  - #### [max() and min()](#max-and-min-1)
-
-  - #### [Some other built in functions](#this-is-a-link-for-all-built-in-functions-in-python)
+- [Quicknote](#quicknote)
+- [Syntax and Code Blocks](#syntax-and-code-blocks)
+  - [Common Syntax Errors](#common-syntax-errors)
+  - [Common Semantic Errors](#common-semantic-errors)
+- [Python Syntax](#python-syntax)
+- [Print](#print)
+- [Functions](#functions-in-python)
+  - [type()](#type)
+  - [str()](#str)
+  - [sorted()](#sorted)
+  - [max() and min()](#max-and-min)
+  - [Some other built in functions](#this-is-a-link-for-all-built-in-functions-in-python)
 
 
-## Quicknote
+[**_&#x25B2; Go to Overview_**](#overview)
+
+
+## Quicknote 
 
 Python is a general-purpose programming language used for scripting, automation, and developing various applications. It's compatible with Windows, Linux, and macOS, and runs on servers, workstations, PCs, mobile devices, and IoT.
 
@@ -42,6 +38,7 @@ Python is a general-purpose programming language used for scripting, automation,
 - A client-side scripting language.
 - Purely object-oriented.
 
+[**_&#x25B2; Go to Overview_**](#overview)
 
 ## Syntax and Code Blocks
 
@@ -68,7 +65,103 @@ If syntax is correct but the script behaves unexpectedly, it may be due to a sem
 
 When working with code blocks, be mindful of syntax and semantic errors, and the overall result of your code. Fixing an error doesn't guarantee the desired effect when the code runs. Always click Run to check your work after fixing an error.
 
-## print() 
+[**_&#x25B2; Go to Overview_**](#overview)
+
+## Python Syntax
+
+Python is a flexible programming language used in various fields like software development, machine learning, and data analysis. It's highly popular among data professionals, so understanding its basic syntax and meaning is crucial for your career growth. This reading discusses Python's syntax and meaning, stressing the importance of practice and exposure to code. Syntax includes words representing objects and commands, while punctuation provides structure and context. The meaning conveyed by syntax, known as semantics, is best learned through hands-on experience. Additionally, following established guidelines ensures consistent style within the language.
+
+- **_Variables:_** Represent data stored as strings, tuples, dictionaries, lists, and objects.
+
+ > (note: future readings explain these categories you can see them now by clicking on them!)
+
+- **_Keywords:_** Special words that are reserved for specific purposes and that can only be used for those purposes
+for ex => `in, not, or, for, while, return`
+
+- **_Operators:_** Symbols that perform operations on objects and values
+for ex => `+, -, *, /, **, %, //, >, <, ==`
+
+
+- **_Expressions:_** A combination of numbers, symbols, and variables to compute and return a result upon evaluation
+
+
+- **_Functions:_**  A group of related statements to perform a task and return a value
+
+```python
+def to_celsius(x):
+   '''Convert Fahrenheit to Celsius'''
+   return (x-32) * 5/9
+
+to_celsius(75)
+```
+
+
+- **_Conditional Statements:_** Sections of code that direct program execution based on specified conditions
+
+```python
+number = -4
+
+
+if number > 0:
+   print('Number is positive.')
+elif number == 0:
+   print('Number is zero.')
+else:
+   print('Number is negative.')
+```
+
+As you’ll surely discover, Python generates syntax errors for incorrectly used keywords and syntax.
+
+Example:
+
+```python
+print(This will throw an error because I didn’t make it a string.)
+```
+
+- **_Naming Rules and Convections_**
+
+When assigning names to objects, programmers adhere to a set of rules and conventions which help to standardize code and make it more accessible to everyone. Here are some naming rules and conventions that you should know:
+
+- Names cannot contain spaces.
+
+- Names may be a mixture of upper and lower case characters.
+
+- Names can’t start with a number but may contain numbers after the first character.
+
+- Variable names and function names should be written in snake_case, which means that all letters are lowercase and words are separated using an underscore.
+
+- Descriptive names are better than cryptic abbreviations because they help other programmers (and you) read and interpret your code. For example, student_name is better than sn. It may feel excessive when you write it, but when you return to your code you’ll find it much easier to understand.
+
+Tim Peters, a Python programmer, wrote this now-famous “poem” of guiding principles for coding in Python:
+
+- **_The Zen of Python:_**
+
+_Beautiful is better than ugly._
+_Explicit is better than implicit._
+_Simple is better than complex._
+_Complex is better than complicated._
+_Flat is better than nested._
+_Sparse is better than dense._
+_Readability counts._
+_Special cases aren't special enough to break the rules._
+_Although practicality beats purity._
+_Errors should never pass silently._
+_Unless explicitly silenced._
+_In the face of ambiguity, refuse the temptation to guess._
+_There should be one—and preferably only one—obvious way to do it._
+_Although that way may not be obvious at first unless you're Dutch._
+_Now is better than never._
+_Although never is often better than *right* now._
+_If the implementation is hard to explain, it's a bad idea._
+_If the implementation is easy to explain, it may be a good idea._
+_Namespaces are one honking great idea -- let's do more of those!_
+
+
+Finally, it’s helpful to bookmark the [PEP 8 Style Guide for Python](https://peps.python.org/pep-0008/)  so you can reference it as needed. This reading is limited in scope, and PEP 8 is a more exhaustive resource for style-related matters. PEP stands for Python Enhancement Proposals. These are a running catalog of ways to improve or standardize Python as a language. Because Python is open source, PEP offers a framework to guide developers and build consensus around ideas. It’s a useful and trusted resource.
+
+[**_&#x25B2; Go to Overview_**](#overview)
+
+## print()
 
 The print() function outputs a specified object to the screen. The print() function is one of the most commonly used functions in Python because it allows you to output any detail from your code.
 
@@ -78,15 +171,7 @@ To use the print() function, you pass the object you want to print as an argumen
 month = "September"
 print("Investigate failed login attempts during", month, "if more than", 100)
 ```
-
-
-
-
-
-
-
-
-
+[**_&#x25B2; Go to Overview_**](#overview)
 
 ## Functions in Python
 
@@ -105,19 +190,20 @@ def greet(name):
 greet(Raj)
 ```
 
-The above code will output `Hello Raj!` 
+The above code will output `Hello Raj!`
 
+[**_&#x25B2; Go to Overview_**](#overview)
 
 ## type()
 
-The type() function returns the data type of its argument. The type() function helps you keep track of the data types of variables to avoid errors throughout your code. 
+The type() function returns the data type of its argument. The type() function helps you keep track of the data types of variables to avoid errors throughout your code.
 
 To use it, you pass the object as an argument, and it returns its data type. It only accepts one argument. For example, you could specify type("security") or type(7).
 
 Passing one function into another
 When working with functions, you often need to pass them through print() if you want to output the data type to the screen. This is the case when using a function like type(). Consider the following code:
 
-```python 
+```python
 print(type("This is a string"))
 print(type(8))
 print(type(7.233))
@@ -125,6 +211,7 @@ print(type(7.233))
 
 The above code will print `<class 'str'>` for first one, `<class 'int'>` for second, and `<class 'float'>` for the last one.
 
+[**_&#x25B2; Go to Overview_**](#overview)
 
 ## str()
 The str() function can be used to convert any data type to a string. The str()function takes a single argument, which is the value that you want to convert to a string. The str() function will then return a string representation of the value.
@@ -139,6 +226,7 @@ print(string_representation)
 
 same can be done and you can use `float` and `int` to change some numeral strings into integers or floats which means decimals
 
+[**_&#x25B2; Go to Overview_**](#overview)
 
 ## sorted() 
 
@@ -159,15 +247,16 @@ The sorted() function does not change the iterable that it sorts. The following 
 time_list = [12, 2, 32, 19, 57, 22, 14]
 print(sorted(time_list))
 print(time_list)
-``` 
+```
 
 This will output `[2, 12, 14, 19, 22, 32, 57]` for first and `
-[12, 2, 32, 19, 57, 22, 14]` for second print statement. 
+[12, 2, 32, 19, 57, 22, 14]` for second print statement.
 
 The first print() function displays the sorted list. However, the second print() function, which does not include the sorted() function, displays the list as assigned to time_list in the first line of code.
 
 One more important detail about the sorted() function is that it cannot take lists or strings that have elements of more than one data type. For example, you can’t use the list [1, 2, "hello"].
 
+[**_&#x25B2; Go to Overview_**](#overview)
 
 ## max() and min()
 The max() function returns the largest numeric input passed into it. The min() function returns the smallest numeric input passed into it.
@@ -182,6 +271,8 @@ print(min(time_list))
 print(max(time_list))
 ```
 
-This will print `2` as minimum from list and `57` as maximum from list. 
+This will print `2` as minimum from list and `57` as maximum from list.
+
+[**_&#x25B2; Go to Overview_**](#overview)
 
 - ## [This is a link for all built in functions in python](https://docs.python.org/3/library/functions.html)
