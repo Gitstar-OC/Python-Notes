@@ -250,6 +250,31 @@ print(hours, minutes, seconds)
 ```
 The above code will print `1 23 20`
 
+You must you `functions` to save space and time as shown in the below example of code reusability
+```python
+name = "Kay"
+number = len(name) * 9
+
+print("Hello " + name + ". Your lucky number is " + str(number))
+
+name = "Cameron"
+number = len(name) * 9
+
+print("Hello " + name + ". Your lucky number is " + str(number))
+```
+
+Below is the same alternative for the above code using functions!
+
+```python
+def lucky_number(name):
+    number = len(name) * 9
+    print("Hello " + name + ". Your lucky number is " + str(number))
+
+lucky_number("Kay")
+lucky_number("Cameron")
+```
+The both code example output the same thing, but using a function is more helpful and reusable than the whole code written again and again
+
 **You could learn more about `return` keyword by [Clicking Here](#return)**
 
 [**_&#x25B2; Go to Overview_**](#overview)
