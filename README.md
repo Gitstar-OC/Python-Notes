@@ -361,4 +361,5 @@ area = calculate_area(5, 10)
 print(area)
 ```
 This will output the area as `25`
+
 [**_&#x25B2; Go to Overview_**](#overview)
