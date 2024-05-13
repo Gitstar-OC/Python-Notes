@@ -490,6 +490,8 @@ Here are some real-world examples of how comparisons and equality are used in Py
 
 By understanding comparisons and equality, you can write more powerful and flexible Python code that can adapt to various situations and make intelligent decisions."
 
+[**_&#x25B2; Go to Overview_**](#overview)
+
 ## Comparison Operators with Equations
 
 The following examples demonstrate how to use comparison operators with the data types `int` (integers, whole numbers) and `float` (number with a decimal point or fractional value). Comparison operators return Boolean results. As you learned previously, Boolean is a data type that can hold only one of two values: `True` or `False`.
@@ -800,6 +802,20 @@ print("Is \"pineapple\" less than or equal to \"pineapple\"? Result: ", var3
 # Is "pineapple" less than or equal to "pineapple"? Result:  True
 ```
 
+Key Takeways
+
+| Expression | Description                                                                        |
+|------------|------------------------------------------------------------------------------------|
+| "a" == "a" | If string "a" is identical to string "a", returns True. Else, returns False.       |
+| "a" != "b" | If string "a" is not identical to string "b"                                        |
+| "a" > "b"  | If string "a" has a larger Unicode value than string "b"                            |
+| "a" >= "b" | If the Unicode value for string "a" is greater than or equal to the Unicode value of string "b" |
+| "a" < "b"  | If string "a" has a smaller Unicode value than string "b"                           |
+| "a" <= "b" | If the Unicode value for string "a" is smaller than or equal to the Unicode value of string "b" |
+
+
+[**_&#x25B2; Go to Overview_**](#overview)
+
 ## Exponentiation in Python
 
 In mathematics, an exponent of a number says how many times that number is repeatedly multiplied with itself. We usually express that operation as bn, where b is the base and n is the `exponent` or power. We often call that type of operation “b raised to the n-th power”, “b raised to the power of n”, or most briefly as “b to the n” (Wikipedia, 2019).
@@ -984,4 +1000,7 @@ Then we output the original and exponentiated value with Python’s print() func
 -0.25^-45 = -1.2379400392853803e+27
 ```
 
+[**_&#x25B2; Go to Overview_**](#overview)
+
+## Logical Operators
 
