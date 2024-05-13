@@ -25,8 +25,9 @@
    - [Part 1](#part-1-equality--and-not-equal-to--operators)
    - [Part 2](#part-2-greater-than--and-less-than--operators)
    - [Part 3](#part-3-greater-than-or-equal-to--and-less-than-or-equal-to--operators)
-- [Comparison Operators with Strings]()
+- [Comparison Operators with Strings](#comparison-operator-with-strings)
 - [Exponentiation](#exponentiation-in-python)
+- [Logical Operators](#logical-operators)
 
 
 [**_&#x25B2; Go to Overview_**](#overview)
@@ -782,16 +783,16 @@ At this point, you should be familiar with how comparison operators work in Pyth
 
 3. "pineapple" >= "pineapple"
 
-```python 
-# Use the Unicode chart in Part 2 to determine if the Unicode values of 
+```python
+# Use the Unicode chart in Part 2 to determine if the Unicode values of
 # the first letters of each string are higher, lower, or equal to one
-# another. 
+# another.
 
 
 var1 = "my computer" >= "my chair"
 var2 = "Spring" <= "Winter"
 var3 = "pineapple" >= "pineapple"
- 
+
 print("Is \"my computer\" greater than or equal to \"my chair\"? Result: ", var1)
 print("Is \"Spring\" less than or equal to \"Winter\"? Result: ", var2)
 print("Is \"pineapple\" less than or equal to \"pineapple\"? Result: ", var3
@@ -1004,3 +1005,60 @@ Then we output the original and exponentiated value with Python’s print() func
 
 ## Logical Operators
 
+Logical operators are used to construct more complex expressions. You can make complex comparisons by joining comparison statements together using the logical operators: `and`, `or`, `not`. Complex comparisons return a Boolean (`True` or `False`) result.
+
+- and
+  - Both sides of the statement being evaluated must be True for the whole statement to be True.
+
+  - Example: (5 > 1 and 5 < 10) = True
+
+- or
+  - If either side of the comparison is True, then the whole statement is True.
+
+  - Example: (color = "blue" or color = "green") = True
+
+- not
+
+  - Inverts the Boolean result of the statement immediately following it. So, if a statement evaluates to True, and we put the not operator in front of it, it would become False.
+
+  - Example: (not "A" == "A") = False
+
+### PART 1: The `and` Logical Operator
+
+In Python, you can use the logical operator and to connect more than one comparison. This type of complex comparison is used to check if two comparison statements are both True or not. You might use the and operator when you need to execute a block of code, but only if two different conditions are true. For example, you might want to write a script  that automates sending you an emergency alert if a server stops responding and there is an unusual increase in employees opening trouble tickets.
+
+**Example 1:**
+
+The following model demonstrates the use of the `and` logical operator to join comparisons between two mathematical expressions. The description below the example explains the order in which Python will process the line of code.
+
+```python
+# Example 1
+
+print((6*3 >= 18) and (9+9 <= 36/2))
+
+# True
+```
+
+ In the example above, the following activities were completed by Python in the following order:  
+
+1. Python solves the numerical expressions using the order of operations. (6*3 >= 18) and (9+9 <= 36/2) becomes (18 >= 18) and (18 <= 18)
+
+2. Python compares the results of the numerical expressions using the comparison operators (in this case >= and <=). (18 >= 18) and (18 <= 18) becomes True and True
+
+3. Python checks if both sides of the logical operator "and" are true. True and True become True
+
+4. Python returns a Boolean value: True or False. The complex comparison returns a True result.
+
+**Example 2:**
+
+In this next example, "Nairobi" < "Milan" and "Nairobi" > "Hanoi", the `and` logical operator is connecting two string comparison statements. You learned previously that using the greater than and less than operators on strings will test the alphabetical order (technically Unicode values) of the strings. So, this complex comparison is checking if "Nairobi" is alphabetized before "Milan" (False) AND after "Hanoi" (True). 
+
+This comparison returns a False result because both sides of the logical operator are not True. A comparison statement like this might be used to iterate through a list of names to check if they are alphabetized in the correct order.
+
+```python
+# Example 2
+
+print("Nairobi" < "Milan" and "Nairobi" > "Hanoi")
+
+# False
+```
