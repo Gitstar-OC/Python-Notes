@@ -232,7 +232,7 @@ Functions in Python are reusable blocks of code that perform a specific task. Th
 
 ### Defining Functions:
 
-Functions in Python are defined using the `def` keyword followed by the function name and parentheses containing any parameters. The function body is indented beneath the function definition.
+Functions in Python are defined using the `def` keyword followed by the function name and parentheses containing any parameters `(parameter (argument) -  a value passed into a function for use within the function)`. The function body is indented beneath the function definition.
 
 Examples:
 
