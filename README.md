@@ -1099,3 +1099,60 @@ print(16 <= 4**2 or 9**(0.5) != 3)  # True or False = True
 # False or False returns False
 print("B_name" > "C_name" or "B_name" < "A_name") # False or False = False
 ```
+
+### PART 3: The not Logical Operator
+
+The `not` logical operator inverts the value of the comparison expression. This is a helpful tool when you want to execute a block of code as long as a certain condition is not present.
+
+- If the conditional  expression is True, the `not` logical operator can be added to make the expression `not` True (False). 
+
+- If the conditional  expression is False, the `not` logical operator can be added to make the expression `not` False (True).  
+
+**Syntax:**
+
+```python 
+not expression
+```
+
+**Example 1:**
+# Test Example 1:
+
+```python
+x = 2*3 > 6
+print("The value of x is:")
+print(x)
+
+print("")  # Prints a blank line
+
+print("The inverse value of x is:")
+print(not x)
+```
+
+**Example 2:** 
+
+```python
+# What happens when you negate a False statement? 
+# Click Run when you are ready to check your answer.
+
+
+today = "Monday"
+print(not today == "Tuesday") 
+
+
+# The "today" variable states today is Monday. This makes the comparison
+# "today == Tuesday" False. The logical operator "not" inverts the False
+# result to become True. In other words, this expression asks if it is
+# false that today is not Tuesday. More succinctly, "not False" means 
+# True."
+```
+
+Key Takeways 
+
+When Python logical operators are used with comparison operators, the interpreter will return Boolean results (`True` or `False`):
+
+| Expression          | Description                                           |
+|---------------------|-------------------------------------------------------|
+| a **==** a and a **!=** b  | True if both sides are True, otherwise False.        |
+| a **>** b or a **<=** c    | True if either side is True. False if both sides are False. |
+| **not** a **==** b         | True if the statement is False, False if the statement is True. |
+
