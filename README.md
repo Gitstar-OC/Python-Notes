@@ -665,6 +665,8 @@ False               # value is NOT less than or equal to the right
 
 In this reading, you will learn more about what comparison operators can and cannot do. If you use the `==` (equality) and `!=` (not equal to) operators with strings, you can check if two strings contain the same text or not. You can also alphabetize strings using `>` (greater than), `<` (less than), `>=` (greater than or equal to), `<=` (less than or equal to) comparison operators. As with numeric data types, comparison operators used with strings will return Boolean (`True, False`) results.
 
+[**_&#x25B2; Go to Overview_**](#overview)
+
 ### PART 1: Equality == and Not Equal to != Operators with Strings
 
 In Python, you can use comparison operators to compare strings. The equality == and the not equal to `!=` operators are helpful when you need to search for a specific string in a body of text, a log file, a spreadsheet, a database, and more. You can also check user input strings to compare them to another string. Note that Boolean data types are not string data types (Boolean `True` is not equal to the string "True").
@@ -707,6 +709,8 @@ False
 print("three" == 3)
 False
 ```
+
+[**_&#x25B2; Go to Overview_**](#overview)
 
 ### PART 2: The Greater Than > and Less Than < Operators
 
@@ -772,6 +776,8 @@ Error on line 1:
     print("Five" < 6)
 TypeError: '<' not supported between instances of 'str' and 'int'
 ```
+
+[**_&#x25B2; Go to Overview_**](#overview)
 
 ### PART 3: The Greater Than or Equal To >= and Less Than or Equal To <= Operators
 
