@@ -22,9 +22,9 @@
 - [Return Statement](#return)
 - [Comparing Values](#comparing-values)
 - [Comparison Operators with Equations](#comparison-operators-with-equations)
-   - [Part 1](#part-1-equality--and-not-equal-to--operators)
-   - [Part 2](#part-2-greater-than--and-less-than--operators)
-   - [Part 3](#part-3-greater-than-or-equal-to--and-less-than-or-equal-to--operators)
+   - [Equality == and Not Equal To != Operators](#part-1-equality--and-not-equal-to--operators)
+   - [Greater Than > and Less Than < Operators](#part-2-greater-than--and-less-than--operators)
+   - [Greater Than or Equal to >= and Less Than or Equal to <= Operators](#part-3-greater-than-or-equal-to--and-less-than-or-equal-to--operators)
 - [Comparison Operators with Strings](#comparison-operator-with-strings)
   - [Part 1](#part-1-equality--and-not-equal-to--operators-with-strings) 
   - [Part 2](#part-2-the-greater-than--and-less-than--operators) 
@@ -572,6 +572,8 @@ print(my_variable == 3*5)   # Printing the variable returns a Boolean
 True                        # True or False result.
 ```
 
+[**_&#x25B2; Go to Overview_**](#overview)
+
 ### PART 2: Greater Than > and Less Than < Operators
 
 The comparison operators greater than > and less than < also return a `True` or `False` Boolean result after comparing two values.
@@ -603,6 +605,8 @@ print(11 < 3*3)         # If the < operator finds that the left side is False
 False                   # a False result.
 ```
 
+
+[**_&#x25B2; Go to Overview_**](#overview)
 
 ### PART 3: Greater Than or Equal to >= and Less Than or Equal to <= Operators
 
@@ -656,7 +660,6 @@ False               # value is NOT less than or equal to the right
 [Python Comparison Operators with Syntax and Example](https://data-flair.training/blogs/python-comparison-operators/) - Provides examples of more complex comparisons
 
 [**_&#x25B2; Go to Overview_**](#overview)
-
 
 ## Comparison Operator with Strings
 
