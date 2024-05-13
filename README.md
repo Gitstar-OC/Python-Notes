@@ -26,6 +26,9 @@
    - [Part 2](#part-2-greater-than--and-less-than--operators)
    - [Part 3](#part-3-greater-than-or-equal-to--and-less-than-or-equal-to--operators)
 - [Comparison Operators with Strings](#comparison-operator-with-strings)
+  - [Part 1](#part-1-equality--and-not-equal-to--operators-with-strings) 
+  - [Part 2](#part-2-the-greater-than--and-less-than--operators) 
+  - [Part 3](#part-3-the-greater-than-or-equal-to--and-less-than-or-equal-to--operators) 
 - [Exponentiation](#exponentiation-in-python)
 - [Logical Operators](#logical-operators)
 
@@ -1023,6 +1026,8 @@ Logical operators are used to construct more complex expressions. You can make c
 
   - Example: (not "A" == "A") = False
 
+[**_&#x25B2; Go to Overview_**](#overview)
+
 ### PART 1: The `and` Logical Operator
 
 In Python, you can use the logical operator and to connect more than one comparison. This type of complex comparison is used to check if two comparison statements are both True or not. You might use the and operator when you need to execute a block of code, but only if two different conditions are true. For example, you might want to write a script  that automates sending you an emergency alert if a server stops responding and there is an unusual increase in employees opening trouble tickets.
@@ -1062,6 +1067,7 @@ print("Nairobi" < "Milan" and "Nairobi" > "Hanoi")
 
 # False
 ```
+[**_&#x25B2; Go to Overview_**](#overview)
 
 ### PART 2: The or Logical Operator
 The or logical operator tests two conditions to determine if at least one side of the or logical operator is True. The result of the test can be used to trigger a block of code if at least one condition is present.
@@ -1099,6 +1105,8 @@ print(16 <= 4**2 or 9**(0.5) != 3)  # True or False = True
 # False or False returns False
 print("B_name" > "C_name" or "B_name" < "A_name") # False or False = False
 ```
+
+[**_&#x25B2; Go to Overview_**](#overview)
 
 ### PART 3: The not Logical Operator
 
@@ -1155,4 +1163,6 @@ When Python logical operators are used with comparison operators, the interprete
 | a **==** a and a **!=** b  | True if both sides are True, otherwise False.        |
 | a **>** b or a **<=** c    | True if either side is True. False if both sides are False. |
 | **not** a **==** b         | True if the statement is False, False if the statement is True. |
+
+[**_&#x25B2; Go to Overview_**](#overview)
 
