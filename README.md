@@ -1,6 +1,6 @@
 # Complete Python Notes from Scratch!
 
-> You can click on (&#x25B2;) this arrow to head back to the overview section, it is added at the end of each part. 
+> You can click on (&#x25B2;) this arrow to head back to the overview section, it is added at the end of each part.
 
 ## Overview
 
@@ -18,15 +18,21 @@
   - [sorted()](#sorted)
   - [max() and min()](#max-and-min)
   - [Some other built in functions](#this-is-a-link-for-all-built-in-functions-in-python)
-- [Writing good code](#writing-good-code) 
-- [Comparing Values]()
-- [Return Statement](#return) 
+- [Writing good code](#writing-good-code)
+- [Return Statement](#return)
+- [Comparing Values](#comparing-values)
+- [Comparison Operators with Equations](#comparison-operators-with-equations)
+   - [Part 1](#part-1-equality--and-not-equal-to--operators)
+   - [Part 2](#part-2-greater-than--and-less-than--operators)
+   - [Part 3](#part-3-greater-than-or-equal-to--and-less-than-or-equal-to--operators)
+- [Comparison Operators with Strings]()
+- [Exponentiation](#exponentiation-in-python)
 
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
 
-## Quicknote 
+## Quicknote
 
 Python is a general-purpose programming language used for scripting, automation, and developing various applications. It's compatible with Windows, Linux, and macOS, and runs on servers, workstations, PCs, mobile devices, and IoT.
 
@@ -140,7 +146,7 @@ When assigning names to objects, programmers adhere to a set of rules and conven
 Tim Peters, a Python programmer, wrote this now-famous “poem” of guiding principles for coding in Python:
 
 <details>- <summary> <b> <i>  The Zen of Python </i></b></summary>
-  
+
 _Beautiful is better than ugly._
 
 _Explicit is better than implicit._
@@ -186,7 +192,7 @@ Finally, it’s helpful to bookmark the [PEP 8 Style Guide for Python](https://p
 
 
 
-## Data Types 
+## Data Types
 
 In Python, data types are used to represent different kinds of information. Understanding these types is fundamental for effective programming. Here are the common data types:
 
@@ -199,7 +205,9 @@ In Python, data types are used to represent different kinds of information. Unde
 **Using the Type Function:** The type() function is handy for determining the data type of a value.
 
 **Error Messages:** Errors are common in programming and provide clues to help you fix mistakes. Carefully reading error messages helps in understanding the problem.
+
 ## Comment
+
 
 ```python
 #This is a single line comment in python
@@ -209,7 +217,7 @@ write Multiline comment in
 Python
 """
 ```
-Including comments in your code offers numerous benefits. They significantly improve readability by providing additional context and explanations, making it easier for developers to understand the purpose and functionality of different sections. Comments serve as invaluable documentation, clarifying the logic, algorithms, and complex operations performed, thus aiding in debugging and troubleshooting. 
+Including comments in your code offers numerous benefits. They significantly improve readability by providing additional context and explanations, making it easier for developers to understand the purpose and functionality of different sections. Comments serve as invaluable documentation, clarifying the logic, algorithms, and complex operations performed, thus aiding in debugging and troubleshooting.
 
 - So use comments in your code, it makes your code better.
 
@@ -262,7 +270,7 @@ def convert_seconds(seconds):
     minutes = (seconds - hours * 3600) // 60
     remaining_seconds = seconds - hours * 3600 - minutes * 60
     return hours, minutes, remaining_seconds
- 
+
 hours, minutes, seconds = convert_seconds(5000)
 print(hours, minutes, seconds)
 ```
@@ -317,6 +325,7 @@ The above code will print `<class 'str'>` for first one, `<class 'int'>` for sec
 [**_&#x25B2; Go to Overview_**](#overview)
 
 ## str()
+
 The str() function can be used to convert any data type to a string. The str()function takes a single argument, which is the value that you want to convert to a string. The str() function will then return a string representation of the value.
 
 In this example, the str() function will convert the number 12 to a string. This will run the code and print the string representation of the number.
@@ -331,7 +340,7 @@ same can be done and you can use `float` and `int` to change some numeral string
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
-## sorted() 
+## sorted()
 
 The sorted() function sorts the components of a list. The sorted() function also works on any iterable, like a string, and returns the sorted elements in a list. By default, it sorts them in ascending order. When given an iterable that contains numbers, it sorts them from smallest to largest; this includes iterables that contain numeric data as well as iterables that contain string data beginning with numbers. An iterable that contains strings that begin with alphabetic characters will be sorted alphabetically.
 
@@ -362,6 +371,7 @@ One more important detail about the sorted() function is that it cannot take lis
 [**_&#x25B2; Go to Overview_**](#overview)
 
 ## max() and min()
+
 The max() function returns the largest numeric input passed into it. The min() function returns the smallest numeric input passed into it.
 
 The max() and min() functions accept arguments of either multiple numeric values or of an iterable like a list, and they return the largest or smallest value respectively.
@@ -380,7 +390,7 @@ This will print `2` as minimum from list and `57` as maximum from list.
 
 - ## [This is a link for all built in functions in python](https://docs.python.org/3/library/functions.html)
 
-## Writing Good Code 
+## Writing Good Code
 
 Now, you can understand a good level of code so here's a note from a Great Coder **[Matin Folwer](https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer))**:
 
@@ -414,7 +424,8 @@ Now you can understand that the above code is used for measuring area of Circle!
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
-## Return 
+## Return
+
 The `return` statement is used to return a value from a function, causing the function to stop executing and return the specified value to the caller. Here are some key points about the `return` statement:
 
 - It can return any type of value, including integers, floats, strings, lists, and dictionaries.
@@ -460,7 +471,7 @@ These operators return a Boolean value, either `True` or `False`, depending on t
 `Equality`:
 Equality in Python is a bit more nuanced than simply comparing values. `While the == operator checks for value equality`, it's important to remember that different data types can have the same value but not be considered equal. For example, the integer 1 and the string "1" have the same numerical value, but they are different data types. `Therefore, 1 == "1" would evaluate to False`.
 
-`Logical Operators`: 
+`Logical Operators`:
 Python also provides logical operators that combine comparisons to create more complex conditions. These operators include:
 
 - **And (and):** Returns True only if both operands are True.
@@ -478,3 +489,361 @@ Here are some real-world examples of how comparisons and equality are used in Py
 - Analyzing data to identify patterns and trends.
 
 By understanding comparisons and equality, you can write more powerful and flexible Python code that can adapt to various situations and make intelligent decisions."
+
+## Comparison Operators with Equations
+
+The following examples demonstrate how to use comparison operators with the data types `int` (integers, whole numbers) and `float` (number with a decimal point or fractional value). Comparison operators return Boolean results. As you learned previously, Boolean is a data type that can hold only one of two values: `True` or `False`.
+
+The comparison operators include:
+
+- **==**    (equality)
+
+- **!=**     (not equal to)
+
+- **>**       (greater than)
+
+- **<**      (less than)
+
+- **>=**    (greater than or equal to)
+
+- **<=**    (less than or equal to)
+
+### PART 1: Equality == and Not Equal To != Operators
+
+In Python, you can use comparison operators to compare values. When a comparison is made, Python returns a Boolean result: True or False. Note that Boolean data types are not string data types (Boolean True is not equal to the string "True").
+
+- To check if two values are the same, use the **equality operator: ==**
+
+- To check if two values are not the same, use the **not equal to operator: !=**
+
+The print() function can be used to display the results of the comparisons.
+
+**Examples:**
+
+```python
+
+print(32 == 30+2)   # The == operator checks if the 2 values are
+True                # equal to each other. If they are equal,
+                    # Python returns a True result.
+
+
+print(5+10 == 6+7)  # If the two values are not equal, as in the
+False               # expression 5+10 == 6+7 (or 15 == 13), Python
+                    # returns a False result.
+
+
+print(10-4 != 10+4) # The != operator checks if the 2 values are
+True                # NOT equal to each other. If true, Python
+                    # returns a True result.
+
+
+print(9/3 != 3*1)   # In this last example, 9/3 != 3*1 (or 3 != 3)
+False               # is false. So, Python returns a False value.
+```
+
+#### The equality == operator versus the equals = operator
+
+It is important to note that the equality == comparison operator performs a different task than the equals = assignment operator. The equals = operator assigns the value on the right side of the equals = to the object (e.g., a variable) on the left side of the equals = operator.
+
+**Examples:**
+
+```python
+
+# The = equals assignment operator is used to assign a value to a
+# variable.
+
+my_variable = 3*5           # Assigns a value to my_variable
+print(my_variable)          # Printing the variable returns the
+15                          # value assigned to the variable.
+
+
+
+# The == equality comparison operator checks if the values of the two
+# expressions on either side of the == operator are equivalent to one
+# another.
+
+print(my_variable == 3*5)   # Printing the variable returns a Boolean
+True                        # True or False result.
+```
+
+### PART 2: Greater Than > and Less Than < Operators
+
+The comparison operators greater than > and less than < also return a `True` or `False` Boolean result after comparing two values.
+
+- To check if one value is larger than another value, use the greater than operator: >
+
+- To check if one value is smaller than another value, use the less than operator: <
+
+**Examples:**
+
+```python
+print(11 > 3*3)         # The > operator checks if the left value is
+True                    # greater than the right value. If true, it
+                        # returns a True result.
+
+
+print(4/2 > 8-4)        # If the > operator finds that the left value
+False                   # is NOT greater than the right value, the
+                        # comparison will return a False result.
+
+
+print(4/2 < 8-4)        # The < operator checks  if the left value is
+True                    # less than the right side. If true, the
+                        # comparison returns a True result.
+
+
+print(11 < 3*3)         # If the < operator finds that the left side is False
+                        # NOT less than the right value, Python returns
+False                   # a False result.
+```
+
+
+### PART 3: Greater Than or Equal to >= and Less Than or Equal to <= Operators
+
+Like the other comparison operators, the greater than or equal to >= and less than or equal to <= operators return a `True` or `False` Boolean result when a comparison is made.
+
+- To check if one value is larger than or equal to another value, use the greater than or equal to operator: >=
+
+- To check if one value is smaller than or equal to another value, use the less than or equal to operator: <=
+
+**Examples:**
+
+```python
+
+print(12*2 >= 24)   # The >= operator checks if the left value is
+True                # greater than or equal to the right value.
+                    # If one of these conditions is true,
+                    # Python returns a True result. In this case
+                    # the two values are equal. So, the comparison
+                    # returns a True result.
+
+
+print(18/2 >= 15)   # If the >= comparison determines that the left
+False               # value is NOT greater than or equal to the
+                    # right, it returns a False result.
+
+print(12*2 <= 30)   # The <= operator checks if the left value is
+True                # less than or equal to the right value. In
+                    # this case, the left value is less than the
+                    # right value. Again, if one of the two
+                    # conditions is true, Python returns a True
+                    # result.
+
+
+print(15 <= 18/2)   # If the <= comparison determines that the left
+False               # value is NOT less than or equal to the right
+                    # value, the comparison returns a False result.
+```
+
+**Python comparison operators return Boolean results: `True` or `False`.**
+
+| Symbol | Name                            | Expression | Description                      |
+|--------|---------------------------------|------------|----------------------------------|
+| ==     | Equality operator               | a == b     | a is equal to b                  |
+| !=     | Not equal to operator           | a != b     | a is not equal to b              |
+| >      | Greater than operator           | a > b      | a is larger than b               |
+| >=     | Greater than or equal to operator | a >= b   | a is larger than or equal to b   |
+| <      | Less than operator              | a < b      | a is smaller than b              |
+| <=     | Less than or equal to operator  | a <= b     | a is smaller than or equal to b  |
+
+
+[Python Comparison Operators with Syntax and Example](https://data-flair.training/blogs/python-comparison-operators/) - Provides examples of more complex comparisons
+
+[**_&#x25B2; Go to Overview_**](#overview)
+
+
+## Comparison Operator with Strings
+
+In this reading, you will learn more about what comparison operators can and cannot do. If you use the `==` (equality) and `!=` (not equal to) operators with strings, you can check if two strings contain the same text or not. You can also alphabetize strings using `>` (greater than), `<` (less than), `>=` (greater than or equal to), `<=` (less than or equal to) comparison operators. As with numeric data types, comparison operators used with strings will return Boolean (`True, False`) results.
+
+### PART 1: Equality == and Not Equal to != Operators with Strings
+
+In Python, you can use comparison operators to compare strings. The equality == and the not equal to `!=` operators are helpful when you need to search for a specific string in a body of text, a log file, a spreadsheet, a database, and more. You can also check user input strings to compare them to another string. Note that Boolean data types are not string data types (Boolean `True` is not equal to the string "True").
+
+**Examples:**
+
+## Exponentiation in Python
+
+In mathematics, an exponent of a number says how many times that number is repeatedly multiplied with itself. We usually express that operation as bn, where b is the base and n is the `exponent` or power. We often call that type of operation “b raised to the n-th power”, “b raised to the power of n”, or most briefly as “b to the n” (Wikipedia, 2019).
+
+Python has three ways to exponentiate values:
+
+- The `** operator`. To program 2^5 we do `2 ** 5`.
+- The built-in `pow()` function. 2^3 coded becomes `pow(2, 3)`.
+- The `math.pow()` function. To calculate 3^5, we do `math.pow(3, 5)`.
+
+### Python’s exponent operator: `**`
+
+The first way to raise a number to a power is with Python’s `**` operator. This operator is also called the exponent operator or power operator.
+
+The `**` operator works with two values, just like regular multiplication with `*` does. This time, however, we raise its left argument to the power of its right argument (Python Docs, n.d. c). Let’s say we want to calculate 33. We do that with `**` like so
+
+```python
+3 ** 3
+# Returns: 27
+```
+
+> The `**` operator returns a ZeroDivisionError when we raise 0.0 to a negative power. And when we raise a negative number to a fractional power, it returns a complex number.
+
+Example:
+
+Let’s see how we can use the `**` operator in a Python program. The code below raises several values to a certain exponent, and then outputs the results:
+
+```python
+# Some random values
+valueA = 3
+valueB = 144
+valueC = -987
+valueD = 25
+valueE = -0.25
+
+# Calculate the exponent for the variables
+aExp = valueA ** 2
+bExp = valueB ** 3
+cExp = valueC ** 4
+dExp = valueD ** -5
+eExp = valueE ** 0.125
+
+# Output the results
+print(valueA, "^2 = ", aExp, sep="")
+print(valueB, "^3 = ", bExp, sep="")
+print(valueC, "^4 = ", cExp, sep="")
+print(valueD, "^-5 = ", dExp, sep="")
+print(valueE, "^0.125 = ", eExp, sep="")
+```
+
+
+Here we first make five different variables. We name them `valueA` through `valueE`. They have positive, negative, and floating-point values.
+
+Then we raise each variable to a certain exponent with the `**` operator. Those exponents range from -5 to 4. We store the results in new variables (`aExp` through `eExp`).
+
+The last bit of code outputs the original and exponentiated value with Python’s `print()` function. As we can see from the output, most results are as expected (although -0.250.125 returned a complex number):
+
+```python
+3^2 = 9
+144^3 = 2985984
+-987^4 = 949005240561
+25^-5 = 1.024e-07
+-0.25^0.125 = (0.7768869870150186+0.3217971264527913j)
+```
+
+### Calculate Exponents with `pow()`
+
+Another way to exponentiate values is with the built-in `pow()` function (Python.org, n.d. a). This function accepts two arguments. The first is the base, or the number that we want to raise to a particular power. The second is the exponent to use. `pow()` always calculates an exact integer power.
+
+So to calculate 3^2, we use the `pow()` function like this
+
+```python
+pow(3, 2)
+# Returns: 9
+```
+
+> `pow()` can also accept three arguments. In that case the third argument specifies the modulo of the exponentiation. That returns the remainder of exponentiation. Using `pow()` in that way is more efficient than the equivalent `pow(base, exp) % mod`.
+
+By the way, the `pow()` function returns a complex number when we use it with a non-integer exponent. This differs from the `math.pow()` function, which errors in that case.
+
+Examples:
+
+Let’s look at a Python program that uses the `pow()` function. The code below raises 5 different numbers to as many different exponents
+
+```python
+# Some random values
+valueA = 3
+valueB = 144
+valueC = -987
+valueD = 25
+valueE = -0.25
+
+# Raise the variables to different powers
+aExp = pow(valueA, 2)
+bExp = pow(valueB, 3)
+cExp = pow(valueC, 4)
+dExp = pow(valueD, -5)
+eExp = pow(valueE, 0.125)
+
+# Output results
+print(valueA, "^2 = ", aExp, sep="")
+print(valueB, "^3 = ", bExp, sep="")
+print(valueC, "^4 = ", cExp, sep="")
+print(valueD, "^-5 = ", dExp, sep="")
+print(valueE, "^0.125 = ", eExp, sep="")
+```
+
+First we make five different variables. They are positive, negative, and there’s a floating-point value. We name those variables valueA through valueE.
+
+Then we raise each variable to a particular power. For that we call the `pow()` function with two arguments. The first is the value to exponentiate, the second the exponent. We put the outcome that `pow()` returns in variables `aExp` through `eExp`.
+
+Next several `print()` statements output both the original and `pow()`outcome. Of note is the complex number that `pow()` returned for -0.25^0.125:
+
+```python
+3^2 = 9
+144^3 = 2985984
+-987^4 = 949005240561
+25^-5 = 1.024e-07
+-0.25^0.125 = (0.7768869870150186+0.3217971264527913)
+```
+
+### Compute exponents with `math.pow()`
+
+Python’s `math.pow()` function provides yet another way to multiply a number several times with itself. For that the function accepts two arguments: the base number and exponent.
+
+So why another way to exponentiate values? What makes `math.pow()` different is that it converts both arguments to floating-point values (Python Docs, n.d. b). As a result, the function always returns a float. (For exact integer powers use the `pow()` function or the `**` operator discussed above.)
+
+A quick example of `math.pow()` is:
+
+```python
+import math
+
+math.pow(3, 2)
+# Returns: 9.0
+```
+
+>  Here’s how `math.pow()` handles uncommon cases. `math.pow(1.0, x)` and `math.pow(x, 0.0)` always return 1.0. That happens even when `x` is zero or NaN.
+
+Also, `math.pow()` raises a `ValueError` exception when: both arguments are finite, the first argument is negative, or the second argument is not an integer
+
+Example:
+
+To see how the math.pow() function works in practice, let’s consider the following example program. The following code raises 5 different values to various powers with math.pow().
+
+```python
+import math
+
+# Some numerical values
+valueA = 3
+valueB = 144
+valueC = -987
+valueD = 25
+valueE = -0.25
+
+# Raise each variable to a certain power
+aExp = math.pow(valueA, 2)
+bExp = math.pow(valueB, 3)
+cExp = math.pow(valueC, 4)
+dExp = math.pow(valueD, -5)
+eExp = math.pow(valueE, -45)
+
+# Output the results
+print(valueA, "^2 = ", aExp, sep="")
+print(valueB, "^3 = ", bExp, sep="")
+print(valueC, "^4 = ", cExp, sep="")
+print(valueD, "^-5 = ", dExp, sep="")
+print(valueE, "^-45 = ", eExp, sep="")
+```
+
+Before we can use the math.pow() function we have to import the math module. Then we make five different variables, each with a numerical value. We name them valueA through valueE.
+
+Next we raise each variable to a certain power. For that we call math.pow() with two arguments. The first is the variable we made earlier. The second a positive or negative exponent. We store the function’s outcome in new variables, aExp through eExp.
+
+Then we output the original and exponentiated value with Python’s print() function. This is what that displays:
+
+
+```python
+3^2 = 9.0
+144^3 = 2985984.0
+-987^4 = 949005240561.0
+25^-5 = 1.024e-07
+-0.25^-45 = -1.2379400392853803e+27
+```
+
+
