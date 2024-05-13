@@ -22,13 +22,13 @@
 - [Return Statement](#return)
 - [Comparing Values](#comparing-values)
 - [Comparison Operators with Equations](#comparison-operators-with-equations)
-   - [Equality == and Not Equal To != Operators](#part-1-equality--and-not-equal-to--operators)
-   - [Greater Than > and Less Than < Operators](#part-2-greater-than--and-less-than--operators)
-   - [Greater Than or Equal to >= and Less Than or Equal to <= Operators](#part-3-greater-than-or-equal-to--and-less-than-or-equal-to--operators)
+   - [Equality `==` and Not Equal To `!=` Operators](#part-1-equality--and-not-equal-to--operators)
+   - [Greater Than `>` and Less Than `<` Operators](#part-2-greater-than--and-less-than--operators)
+   - [Greater Than or Equal to `>=` and Less Than or Equal to `<=` Operators](#part-3-greater-than-or-equal-to--and-less-than-or-equal-to--operators)
 - [Comparison Operators with Strings](#comparison-operator-with-strings)
-  - [Equality == and Not Equal to != Operators with Strings](#part-1-equality--and-not-equal-to--operators-with-strings) 
-  - [ The Greater Than > and Less Than < Operators with Strings](#part-2-the-greater-than--and-less-than--operators) 
-  - [The Greater Than or Equal To >= and Less Than or Equal To <= Operators](#part-3-the-greater-than-or-equal-to--and-less-than-or-equal-to--operators) 
+  - [Equality `==` and Not Equal to `!=` Operators with Strings](#part-1-equality--and-not-equal-to--operators-with-strings) 
+  - [ The Greater Than `>` and Less Than `<` Operators with Strings](#part-2-the-greater-than--and-less-than--operators) 
+  - [The Greater Than or Equal To `>=` and Less Than or Equal To `<=` Operators](#part-3-the-greater-than-or-equal-to--and-less-than-or-equal-to--operators) 
 - [Exponentiation](#exponentiation-in-python)
 - [Logical Operators](#logical-operators)
   - [The `and` Logical Operator](#part-1-the-and-logical-operator)
@@ -1135,7 +1135,6 @@ not expression
 ```
 
 **Example 1:**
-# Test Example 1:
 
 ```python
 x = 2*3 > 6
