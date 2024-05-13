@@ -26,11 +26,14 @@
    - [Greater Than > and Less Than < Operators](#part-2-greater-than--and-less-than--operators)
    - [Greater Than or Equal to >= and Less Than or Equal to <= Operators](#part-3-greater-than-or-equal-to--and-less-than-or-equal-to--operators)
 - [Comparison Operators with Strings](#comparison-operator-with-strings)
-  - [Part 1](#part-1-equality--and-not-equal-to--operators-with-strings) 
-  - [Part 2](#part-2-the-greater-than--and-less-than--operators) 
-  - [Part 3](#part-3-the-greater-than-or-equal-to--and-less-than-or-equal-to--operators) 
+  - [Equality == and Not Equal to != Operators with Strings](#part-1-equality--and-not-equal-to--operators-with-strings) 
+  - [ The Greater Than > and Less Than < Operators with Strings](#part-2-the-greater-than--and-less-than--operators) 
+  - [The Greater Than or Equal To >= and Less Than or Equal To <= Operators](#part-3-the-greater-than-or-equal-to--and-less-than-or-equal-to--operators) 
 - [Exponentiation](#exponentiation-in-python)
 - [Logical Operators](#logical-operators)
+  - [The `and` Logical Operator](#part-1-the-and-logical-operator)
+  - [The `or` Logical Operator](#part-2-the-or-logical-operator)
+  - [The `not` Logical Operator](#part-3-the-not-logical-operator)
 
 
 [**_&#x25B2; Go to Overview_**](#overview)
