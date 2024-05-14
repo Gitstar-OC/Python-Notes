@@ -1,4 +1,4 @@
-# Complete Python Notes from Scratch!
+# Complete Python Notes from Scratch
 
 > You can click on (&#x25B2;) this arrow to head back to the overview section, it is added at the end of each part.
 
@@ -22,35 +22,33 @@
 - [Return Statement](#return)
 - [Comparing Values](#comparing-values)
 - [Comparison Operators with Equations](#comparison-operators-with-equations)
-   - [Equality `==` and Not Equal To `!=` Operators](#part-1-equality--and-not-equal-to--operators)
-   - [Greater Than `>` and Less Than `<` Operators](#part-2-greater-than--and-less-than--operators)
-   - [Greater Than or Equal to `>=` and Less Than or Equal to `<=` Operators](#part-3-greater-than-or-equal-to--and-less-than-or-equal-to--operators)
+  - [Equality `==` and Not Equal To `!=` Operators](#part-1-equality--and-not-equal-to--operators)
+  - [Greater Than `>` and Less Than `<` Operators](#part-2-greater-than--and-less-than--operators)
+  - [Greater Than or Equal to `>=` and Less Than or Equal to `<=` Operators](#part-3-greater-than-or-equal-to--and-less-than-or-equal-to--operators)
 - [Comparison Operators with Strings](#comparison-operator-with-strings)
-  - [Equality `==` and Not Equal to `!=` Operators with Strings](#part-1-equality--and-not-equal-to--operators-with-strings) 
-  - [ The Greater Than `>` and Less Than `<` Operators with Strings](#part-2-the-greater-than--and-less-than--operators) 
-  - [The Greater Than or Equal To `>=` and Less Than or Equal To `<=` Operators](#part-3-the-greater-than-or-equal-to--and-less-than-or-equal-to--operators) 
+  - [Equality `==` and Not Equal to `!=` Operators with Strings](#part-1-equality--and-not-equal-to--operators-with-strings)
+  - [The Greater Than `>` and Less Than `<` Operators with Strings](#part-2-the-greater-than--and-less-than--operators)
+  - [The Greater Than or Equal To `>=` and Less Than or Equal To `<=` Operators](#part-3-the-greater-than-or-equal-to--and-less-than-or-equal-to--operators)
 - [Exponentiation](#exponentiation-in-python)
 - [Logical Operators](#logical-operators)
   - [The `and` Logical Operator](#part-1-the-and-logical-operator)
   - [The `or` Logical Operator](#part-2-the-or-logical-operator)
   - [The `not` Logical Operator](#part-3-the-not-logical-operator)
 
-
 [**_&#x25B2; Go to Overview_**](#overview)
-
 
 ## Quicknote
 
 Python is a general-purpose programming language used for scripting, automation, and developing various applications. It's compatible with Windows, Linux, and macOS, and runs on servers, workstations, PCs, mobile devices, and IoT.
 
-### Python is:
+### Python is
 
 - General purpose and widely used for scripting.
 - Compatible with various operating systems.
 - Utilized in IT support, system administration, web development, machine learning, and more.
 - Beginner-friendly with English-like syntax.
 
-### Python is not:
+### Python is not
 
 - Platform or OS-specific.
 - A client-side scripting language.
@@ -99,9 +97,7 @@ for ex => `in, not, or, for, while, return`
 - **_Operators:_** Symbols that perform operations on objects and values
 for ex => `+, -, *, /, **, %, //, >, <, ==`
 
-
 - **_Expressions:_** A combination of numbers, symbols, and variables to compute and return a result upon evaluation
-
 
 - **_Functions:_**  A group of related statements to perform a task and return a value
 
@@ -112,7 +108,6 @@ def to_celsius(x):
 
 to_celsius(75)
 ```
-
 
 - **_Conditional Statements:_** Sections of code that direct program execution based on specified conditions
 
@@ -152,7 +147,7 @@ When assigning names to objects, programmers adhere to a set of rules and conven
 
 Tim Peters, a Python programmer, wrote this now-famous “poem” of guiding principles for coding in Python:
 
-<details>- <summary> <b> <i>  The Zen of Python </i></b></summary>
+<details> <summary> The Zen of Python </summary>
 
 _Beautiful is better than ugly._
 
@@ -184,20 +179,19 @@ _Although that way may not be obvious at first unless you're Dutch._
 
 _Now is better than never._
 
-_Although never is often better than *right* now._
+_Although never is often better than _right_ now._
 
 _If the implementation is hard to explain, it's a bad idea._
 
 _If the implementation is easy to explain, it may be a good idea._
 
 _Namespaces are one honking great idea -- let's do more of those!_
+
 </details>
 
 Finally, it’s helpful to bookmark the [PEP 8 Style Guide for Python](https://peps.python.org/pep-0008/)  so you can reference it as needed. This reading is limited in scope, and PEP 8 is a more exhaustive resource for style-related matters. PEP stands for Python Enhancement Proposals. These are a running catalog of ways to improve or standardize Python as a language. Because Python is open source, PEP offers a framework to guide developers and build consensus around ideas. It’s a useful and trusted resource.
 
 [**_&#x25B2; Go to Overview_**](#overview)
-
-
 
 ## Data Types
 
@@ -215,7 +209,6 @@ In Python, data types are used to represent different kinds of information. Unde
 
 ## Comment
 
-
 ```python
 #This is a single line comment in python
 """
@@ -224,6 +217,7 @@ write Multiline comment in
 Python
 """
 ```
+
 Including comments in your code offers numerous benefits. They significantly improve readability by providing additional context and explanations, making it easier for developers to understand the purpose and functionality of different sections. Comments serve as invaluable documentation, clarifying the logic, algorithms, and complex operations performed, thus aiding in debugging and troubleshooting.
 
 - So use comments in your code, it makes your code better.
@@ -240,13 +234,14 @@ To use the print() function, you pass the object you want to print as an argumen
 month = "September"
 print("Investigate failed login attempts during", month, "if more than", 100)
 ```
+
 [**_&#x25B2; Go to Overview_**](#overview)
 
 ## Functions in Python
 
 Functions in Python are reusable blocks of code that perform a specific task. They help organize code, promote reusability, and improve readability.
 
-### Defining Functions:
+### Defining Functions
 
 Functions in Python are defined using the `def` keyword followed by the function name and parentheses containing any parameters `(parameter (argument) -  a value passed into a function for use within the function)`. The function body is indented beneath the function definition.
 
@@ -269,6 +264,7 @@ area_b = area_triangle(7,3)
 sum = area_a + area_b
 print("The sum of both areas is: " + str(sum))
 ```
+
 The above code will print out `The sum of both areas is: 20.5`
 
 ```python
@@ -281,9 +277,11 @@ def convert_seconds(seconds):
 hours, minutes, seconds = convert_seconds(5000)
 print(hours, minutes, seconds)
 ```
+
 The above code will print `1 23 20`
 
 You must use `functions` to save space and time as shown in the below example of code reusability
+
 ```python
 name = "Kay"
 number = len(name) * 9
@@ -306,6 +304,7 @@ def lucky_number(name):
 lucky_number("Kay")
 lucky_number("Cameron")
 ```
+
 The both code example output the same thing, but using a function is more helpful and reusable than the whole code written again and again
 
 **You could learn more about `return` keyword by [Clicking Here](#return)**
@@ -401,7 +400,7 @@ This will print `2` as minimum from list and `57` as maximum from list.
 
 Now, you can understand a good level of code so here's a note from a Great Coder **[Matin Folwer](https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer))**:
 
-**_` Any fool can write code that a computer can understand, Good Programmers write code that humans can understand`_**
+**_`Any fool can write code that a computer can understand, Good Programmers write code that humans can understand`_**
 
 What I mean by that will be demonstrated with a small example
 
@@ -454,11 +453,10 @@ area = calculate_area(5, 10)
 # Print the result
 print(area)
 ```
+
 This will output the area as `25`
 
 [**_&#x25B2; Go to Overview_**](#overview)
-
-
 
 ## Comparing Values
 
@@ -608,7 +606,6 @@ print(11 < 3*3)         # If the < operator finds that the left side is False
 False                   # a False result.
 ```
 
-
 [**_&#x25B2; Go to Overview_**](#overview)
 
 ### PART 3: Greater Than or Equal to >= and Less Than or Equal to <= Operators
@@ -658,7 +655,6 @@ False               # value is NOT less than or equal to the right
 | >=     | Greater than or equal to operator | a >= b   | a is larger than or equal to b   |
 | <      | Less than operator              | a < b      | a is smaller than b              |
 | <=     | Less than or equal to operator  | a <= b     | a is smaller than or equal to b  |
-
 
 [Python Comparison Operators with Syntax and Example](https://data-flair.training/blogs/python-comparison-operators/) - Provides examples of more complex comparisons
 
@@ -829,7 +825,6 @@ Key Takeways
 | "a" < "b"  | If string "a" has a smaller Unicode value than string "b"                           |
 | "a" <= "b" | If the Unicode value for string "a" is smaller than or equal to the Unicode value of string "b" |
 
-
 [**_&#x25B2; Go to Overview_**](#overview)
 
 ## Exponentiation in Python
@@ -881,7 +876,6 @@ print(valueC, "^4 = ", cExp, sep="")
 print(valueD, "^-5 = ", dExp, sep="")
 print(valueE, "^0.125 = ", eExp, sep="")
 ```
-
 
 Here we first make five different variables. We name them `valueA` through `valueE`. They have positive, negative, and floating-point values.
 
@@ -968,7 +962,7 @@ math.pow(3, 2)
 # Returns: 9.0
 ```
 
->  Here’s how `math.pow()` handles uncommon cases. `math.pow(1.0, x)` and `math.pow(x, 0.0)` always return 1.0. That happens even when `x` is zero or NaN.
+> Here’s how `math.pow()` handles uncommon cases. `math.pow(1.0, x)` and `math.pow(x, 0.0)` always return 1.0. That happens even when `x` is zero or NaN.
 
 Also, `math.pow()` raises a `ValueError` exception when: both arguments are finite, the first argument is negative, or the second argument is not an integer
 
@@ -1006,7 +1000,6 @@ Before we can use the math.pow() function we have to import the math module. The
 Next we raise each variable to a certain power. For that we call math.pow() with two arguments. The first is the variable we made earlier. The second a positive or negative exponent. We store the function’s outcome in new variables, aExp through eExp.
 
 Then we output the original and exponentiated value with Python’s print() function. This is what that displays:
-
 
 ```python
 3^2 = 9.0
@@ -1068,7 +1061,7 @@ print((6*3 >= 18) and (9+9 <= 36/2))
 
 **Example 2:**
 
-In this next example, "Nairobi" < "Milan" and "Nairobi" > "Hanoi", the `and` logical operator is connecting two string comparison statements. You learned previously that using the greater than and less than operators on strings will test the alphabetical order (technically Unicode values) of the strings. So, this complex comparison is checking if "Nairobi" is alphabetized before "Milan" (False) AND after "Hanoi" (True). 
+In this next example, "Nairobi" < "Milan" and "Nairobi" > "Hanoi", the `and` logical operator is connecting two string comparison statements. You learned previously that using the greater than and less than operators on strings will test the alphabetical order (technically Unicode values) of the strings. So, this complex comparison is checking if "Nairobi" is alphabetized before "Milan" (False) AND after "Hanoi" (True).
 
 This comparison returns a False result because both sides of the logical operator are not True. A comparison statement like this might be used to iterate through a list of names to check if they are alphabetized in the correct order.
 
@@ -1079,14 +1072,16 @@ print("Nairobi" < "Milan" and "Nairobi" > "Hanoi")
 
 # False
 ```
+
 [**_&#x25B2; Go to Overview_**](#overview)
 
 ### PART 2: The or Logical Operator
+
 The or logical operator tests two conditions to determine if at least one side of the or logical operator is True. The result of the test can be used to trigger a block of code if at least one condition is present.
 
 **Syntax:**
 
-```python 
+```python
 Expression1 or Expression2
 ```
 
@@ -1096,7 +1091,6 @@ Expression1 or Expression2
 | True        | False       | False          |
 | False       | True        | False          |
 | False       | False       | False          |
-
 
 **Example:**
 
@@ -1124,13 +1118,13 @@ print("B_name" > "C_name" or "B_name" < "A_name") # False or False = False
 
 The `not` logical operator inverts the value of the comparison expression. This is a helpful tool when you want to execute a block of code as long as a certain condition is not present.
 
-- If the conditional  expression is True, the `not` logical operator can be added to make the expression `not` True (False). 
+- If the conditional  expression is True, the `not` logical operator can be added to make the expression `not` True (False).
 
 - If the conditional  expression is False, the `not` logical operator can be added to make the expression `not` False (True).  
 
 **Syntax:**
 
-```python 
+```python
 not expression
 ```
 
@@ -1147,7 +1141,7 @@ print("The inverse value of x is:")
 print(not x)
 ```
 
-**Example 2:** 
+**Example 2:**
 
 ```python
 # What happens when you negate a False statement? 
@@ -1165,7 +1159,7 @@ print(not today == "Tuesday")
 # True."
 ```
 
-Key Takeways 
+Key Takeways
 
 When Python logical operators are used with comparison operators, the interpreter will return Boolean results (`True` or `False`):
 
@@ -1177,3 +1171,4 @@ When Python logical operators are used with comparison operators, the interprete
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
+## Conditionals
