@@ -1053,7 +1053,7 @@ print((6*3 >= 18) and (9+9 <= 36/2))
 # True
 ```
 
- In the example above, the following activities were completed by Python in the following order:  
+ In the example above, the following activities were completed by Python in the following order:
 
 1. Python solves the numerical expressions using the order of operations. (6*3 >= 18) and (9+9 <= 36/2) becomes (18 >= 18) and (18 <= 18)
 
@@ -1124,7 +1124,7 @@ The `not` logical operator inverts the value of the comparison expression. This 
 
 - If the conditional  expression is True, the `not` logical operator can be added to make the expression `not` True (False).
 
-- If the conditional  expression is False, the `not` logical operator can be added to make the expression `not` False (True).  
+- If the conditional  expression is False, the `not` logical operator can be added to make the expression `not` False (True).
 
 **Syntax:**
 
@@ -1148,18 +1148,18 @@ print(not x)
 **Example 2:**
 
 ```python
-# What happens when you negate a False statement? 
+# What happens when you negate a False statement?
 # Click Run when you are ready to check your answer.
 
 
 today = "Monday"
-print(not today == "Tuesday") 
+print(not today == "Tuesday")
 
 
 # The "today" variable states today is Monday. This makes the comparison
 # "today == Tuesday" False. The logical operator "not" inverts the False
 # result to become True. In other words, this expression asks if it is
-# false that today is not Tuesday. More succinctly, "not False" means 
+# false that today is not Tuesday. More succinctly, "not False" means
 # True."
 ```
 
@@ -1177,14 +1177,26 @@ When Python logical operators are used with comparison operators, the interprete
 
 ## Conditionals
 
-### If 
+### If
+
+```python
+
+```
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
 ### Else
 
+```python
+
+```
+
 [**_&#x25B2; Go to Overview_**](#overview)
 
 ### Elif
+
+```python
+
+```
 
 [**_&#x25B2; Go to Overview_**](#overview)
