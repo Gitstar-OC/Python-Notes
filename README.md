@@ -1,7 +1,7 @@
 # Complete Python Notes from Scratch
-
+<!--
 > You can click on (&#x25B2;) this arrow to head back to the overview section, it is added at the end of each part.
-
+-->
 ## Overview
 
 - [Quicknote](#quicknote)
