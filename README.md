@@ -14,6 +14,7 @@
 - [Print](#print)
 - [Function](#functions-in-python)
   - [len()](#len)
+  - [round()](#round)
   - [type()](#type)
   - [str()](#str)
   - [sorted()](#sorted)
@@ -227,7 +228,7 @@ print(jadu)
 
 - **Float:** Represents real numbers with a decimal part.
 
-```python 
+```python
 123.45
 # Any integer, with decimal is a float
 ```
@@ -344,11 +345,22 @@ The both code example output the same thing, but using a function is more helpfu
 
 ## len()
 
-The len function is used to get the number of characters in a string 
+The len function is used to get the number of characters in a string
 
-```python 
+```python
 print(len("Where do you work"))
 # This will print out the number of characters (including spaces)
+```
+
+[**_&#x25B2; Go to Overview_**](#overview)
+
+## round()
+
+The round function rounds up the number, it directly rounds up the number to a integer but you can use it to round up to decimal places too
+
+```python
+print(round(8 / 3)) # This will print 2
+print(round(8 /3 , 3))  # This will round it to 3 decimal places
 ```
 
 [**_&#x25B2; Go to Overview_**](#overview)
@@ -504,13 +516,33 @@ This will output the area as `25`
 
 You can use the mathematical operators as it is in python but `PEMDAS` is used to calculate the result
 
-```python 
+```python
 3 + 5 #8
 7 - 4 #3
 3 * 2 #6
 6 / 3 #2
 2 ** 3 (2 ^ 3) #8
 ```
+
+You can also use `floor division` to print out direct result when devided by numbers, for example:
+
+```python
+print(8 // 8) #This will directly print 2
+print(15 // 4) #This will directly print 3
+```
+
+You can also devide, multiply, add or subtract the whole number after they are assigned, for example:
+
+```python
+result = 4
+result /= 2 #Divide 4 again by 2
+result += 1 #Adds 1 to the result
+result *= 5 #Multiplies by 5
+result -= 5 #Subtracts 5 from it
+```
+
+[**_&#x25B2; Go to Overview_**](#overview)
+
 
 ## Comparing Values
 
