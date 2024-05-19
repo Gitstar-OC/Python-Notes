@@ -13,6 +13,7 @@
 - [Comments](#comment)
 - [Print](#print)
 - [Function](#functions-in-python)
+  - [len()](#len)
   - [type()](#type)
   - [str()](#str)
   - [sorted()](#sorted)
@@ -314,6 +315,8 @@ The both code example output the same thing, but using a function is more helpfu
 **You could learn more about `return` keyword by [Clicking Here](#return)**
 
 [**_&#x25B2; Go to Overview_**](#overview)
+
+## len() 
 
 ## type()
 
