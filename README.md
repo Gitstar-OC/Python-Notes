@@ -21,6 +21,7 @@
   - [Some other built in functions](#this-is-a-link-for-all-built-in-functions-in-python)
 - [Writing good code](#writing-good-code)
 - [Return Statement](#return)
+- [Mathematical Operators](#mathematical-operators)
 - [Comparing Values](#comparing-values)
 - [Comparison Operators with Equations](#comparison-operators-with-equations)
   - [Equality `==` and Not Equal To `!=` Operators](#part-1-equality--and-not-equal-to--operators)
@@ -498,6 +499,18 @@ print(area)
 This will output the area as `25`
 
 [**_&#x25B2; Go to Overview_**](#overview)
+
+## Mathematical Operators
+
+You can use the mathematical operators as it is in python but `PEMDAS` is used to calculate the result
+
+```python 
+3 + 5 #8
+7 - 4 #3
+3 * 2 #6
+6 / 3 #2
+2 ** 3 (2 ^ 3) #8
+```
 
 ## Comparing Values
 
