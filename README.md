@@ -10,6 +10,7 @@
   - [Common Semantic Errors](#common-semantic-errors)
 - [Python Syntax](#python-syntax)
 - [Data Types](#data-types)
+  - [f-String](#f-string)
 - [Comments](#comment)
 - [Print](#print)
 - [Function](#functions-in-python)
@@ -238,6 +239,23 @@ print(jadu)
 **Using the Type Function:** The type() function is handy for determining the data type of a value.
 
 **Error Messages:** Errors are common in programming and provide clues to help you fix mistakes. Carefully reading error messages helps in understanding the problem.
+
+### f-String
+
+In python f- string (f) is used to convert multiple types of data types like float, boolean and integer to string
+
+For example:
+
+```python
+score = 0 
+height = 1.8 
+isWinning = True
+
+print(f"your score is {score}, your height is {height}, and you are winning is {isWinning}")
+
+# your score is 0, your height is 1.8, and you are winning is True
+# you just need to add infront of the first " quote symbol
+```
 
 ## Comment
 
