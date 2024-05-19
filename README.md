@@ -203,8 +203,33 @@ Finally, it’s helpful to bookmark the [PEP 8 Style Guide for Python](https://p
 In Python, data types are used to represent different kinds of information. Understanding these types is fundamental for effective programming. Here are the common data types:
 
 - **String:** Represents text enclosed in quotes.
-- **Integer:** Represents whole numbers without a decimal part.
+
+```python
+'hello'
+print("hi")
+# All the things enclosed in quotes are strings
+```
+
+```python
+jadu = "hello"[4]
+print(jadu)
+# You can also print out a character at any place by reducing one from the number you want to get, because python starts counting from 0
+```
+
+- **Integer:** Represents real numbers (both positive and negative) without a decimal part.
+
+```python
+123
+123_456_789
+# Any number directly written is called as Interger (int), to write long number we can write it by including '_' it works the same as ','
+```
+
 - **Float:** Represents real numbers with a decimal part.
+
+```python 
+123.45
+# Any integer, with decimal is a float
+```
 
 **Mixing Data Types:** Python doesn't allow mixing different data types in calculations. Combining an integer and a string will result in an error.
 
@@ -316,8 +341,7 @@ The both code example output the same thing, but using a function is more helpfu
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
-## len() 
-
+## len()
 ## type()
 
 The type() function returns the data type of its argument. The type() function helps you keep track of the data types of variables to avoid errors throughout your code.
