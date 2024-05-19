@@ -342,6 +342,16 @@ The both code example output the same thing, but using a function is more helpfu
 [**_&#x25B2; Go to Overview_**](#overview)
 
 ## len()
+
+The len function is used to get the number of characters in a string 
+
+```python 
+print(len("Where do you work"))
+# This will print out the number of characters (including spaces)
+```
+
+[**_&#x25B2; Go to Overview_**](#overview)
+
 ## type()
 
 The type() function returns the data type of its argument. The type() function helps you keep track of the data types of variables to avoid errors throughout your code.
