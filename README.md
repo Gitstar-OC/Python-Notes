@@ -361,7 +361,7 @@ The both code example output the same thing, but using a function is more helpfu
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
-## len()
+### len()
 
 The len function is used to get the number of characters in a string
 
@@ -372,7 +372,7 @@ print(len("Where do you work"))
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
-## round()
+### round()
 
 The round function rounds up the number, it directly rounds up the number to a integer but you can use it to round up to decimal places too
 
@@ -383,7 +383,7 @@ print(round(8 /3 , 3))  # This will round it to 3 decimal places
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
-## type()
+### type()
 
 The type() function returns the data type of its argument. The type() function helps you keep track of the data types of variables to avoid errors throughout your code.
 
@@ -402,7 +402,7 @@ The above code will print `<class 'str'>` for first one, `<class 'int'>` for sec
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
-## str()
+### str()
 
 The str() function can be used to convert any data type to a string. The str()function takes a single argument, which is the value that you want to convert to a string. The str() function will then return a string representation of the value.
 
@@ -418,7 +418,7 @@ same can be done and you can use `float` and `int` to change some numeral string
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
-## sorted()
+### sorted()
 
 The sorted() function sorts the components of a list. The sorted() function also works on any iterable, like a string, and returns the sorted elements in a list. By default, it sorts them in ascending order. When given an iterable that contains numbers, it sorts them from smallest to largest; this includes iterables that contain numeric data as well as iterables that contain string data beginning with numbers. An iterable that contains strings that begin with alphabetic characters will be sorted alphabetically.
 
@@ -448,7 +448,7 @@ One more important detail about the sorted() function is that it cannot take lis
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
-## max() and min()
+### max() and min()
 
 The max() function returns the largest numeric input passed into it. The min() function returns the smallest numeric input passed into it.
 
