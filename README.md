@@ -14,6 +14,8 @@
 - [Comments](#comment)
 - [Print](#print)
 - [Function](#functions-in-python)
+  - [lower()](#lower)
+  - [count()](#count)
   - [len()](#len)
   - [round()](#round)
   - [type()](#type)
@@ -1279,24 +1281,110 @@ When Python logical operators are used with comparison operators, the interprete
 
 ### If
 
-```python
+Runs the code if the condition given is true, For Example: 
 
+```python
+name = "Raj"
+
+if name == "Raj":
+  print("Hello Raj, it's a great name")
 ```
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
 ### Else
 
-```python
+Runs the code if the other conditions that are given are not true
 
+```python
+name = "Raj"
+time = 10
+
+if time > 8 and time < 15:
+  print(f"Good Morning {name}")
+else:
+  print("Good Evening")
 ```
+
+You can also use the if and else statements combined with other code to make complex things, For example:
+
+```python
+name1 = input("what is your name?")
+name2 = input("what is your partner's or crush's name?")
+
+combinedName = name1 + name2
+lowerNames = combinedName.lower()
+
+t = lowerNames.count("t")
+r = lowerNames.count("r")
+u = lowerNames.count("u")
+e = lowerNames.count("e")
+
+firstLetter = t + r + u + e
+
+l = lowerNames.count("l")
+o = lowerNames.count("o")
+v = lowerNames.count("v")
+e = lowerNames.count("e")
+secondLetter = l + o + v + e
+
+score = int(str(firstLetter) + str(secondLetter))
+
+
+if score < 10 or score > 90:
+  print(f"Your score is {score}, you go together like coke and mentos.")
+else:
+  print(f"Your score is {score}.")
+```
+
+
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
 ### Elif
 
-```python
+Used to add multiple conditions (Greater than 2)
 
+```python
+name = "Sahil"
+
+if name == "Raj":
+  print("Hello Raj")
+elif name == "Sahil":
+  print("Hello Sahil")
+else:
+  print("Hello")
+
+# Please note that I can print the name directly by using print(f" Hello {name}"), but this is just to explain at a simple level
+```
+
+Below is a tressure hunt game made using this statements
+
+```python
+print("Welcome to Treasure Island, your mission is to find the treasure.")
+
+q1 = input("You're at a cross road. Where do you want to go? Type \"left\" or \"right\". ").lower()
+
+if q1 == "left":
+    q2 = input('You are near a river, What would you like to do? Type "swim" or "wait".').lower()
+    if q2 == "wait":
+        q3 = input('Now there are three doors in front of you, which one will you choose? Type "Red", "Yellow" or "Blue".').lower()
+        if q3 == "yellow":
+            print("Congratulations, you win the treasure!")
+        elif q3 == "red":
+            print("You got burned by fire, Game Over!")
+        elif q3 == "blue":
+            print("You got eaten by beasts, Game Over!")
+        else:
+            print("Game Over")
+    elif q2 == "swim":
+        print("You got attacked by trout, Game Over!")
+    else:
+        print("Game Over!")
+elif q1 == "right":
+    print("You fall into a hole, Game Over!")
+else:
+    print("Game Over")
 ```
 
 [**_&#x25B2; Go to Overview_**](#overview)
