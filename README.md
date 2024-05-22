@@ -9,8 +9,9 @@
   - [Common Syntax Errors](#common-syntax-errors)
   - [Common Semantic Errors](#common-semantic-errors)
 - [Python Syntax](#python-syntax)
-- [Data Types](#data-types)
+- [Data Types](#data-types)123_456_789
   - [f-String](#f-string)
+- [Data Structures](#data-structure)
 - [Comments](#comment)
 - [Print](#print)
 - [Function](#functions-in-python)
@@ -26,6 +27,7 @@
 - [Writing good code](#writing-good-code)
 - [Return Statement](#return)
 - [Mathematical Operators](#mathematical-operators)
+- [Random Module](#random-module)
 - [Comparing Values](#comparing-values)
 - [Comparison Operators with Equations](#comparison-operators-with-equations)
   - [Equality `==` and Not Equal To `!=` Operators](#part-1-equality--and-not-equal-to--operators)
@@ -249,8 +251,8 @@ In python f- string (f) is used to convert multiple types of data types like flo
 For example:
 
 ```python
-score = 0 
-height = 1.8 
+score = 0
+height = 1.8
 isWinning = True
 
 print(f"your score is {score}, your height is {height}, and you are winning is {isWinning}")
@@ -258,6 +260,9 @@ print(f"your score is {score}, your height is {height}, and you are winning is {
 # your score is 0, your height is 1.8, and you are winning is True
 # you just need to add infront of the first " quote symbol
 ```
+
+## Data Structures
+
 
 ## Comment
 
@@ -1281,7 +1286,7 @@ When Python logical operators are used with comparison operators, the interprete
 
 ### If
 
-Runs the code if the condition given is true, For Example: 
+Runs the code if the condition given is true, For Example:
 
 ```python
 name = "Raj"
@@ -1337,8 +1342,6 @@ else:
   print(f"Your score is {score}.")
 ```
 
-
-
 [**_&#x25B2; Go to Overview_**](#overview)
 
 ### Elif
@@ -1388,3 +1391,41 @@ else:
 ```
 
 [**_&#x25B2; Go to Overview_**](#overview)
+
+## Random Module
+
+The random module is used to generate random integers and decimals. You can use it by importing it into your code by using the `import` statement
+
+```python
+import random
+
+randomNumber = random.randint(0, 5)
+#The above code will generate random integer from 0 to 5, you can also replace them as you wish
+```
+
+By this you can also create a small heads or toss probability game.
+
+```python
+import random
+
+coinToss = random.randint(0, 1)
+
+if coinToss == 1:
+    print("Heads")
+else:
+    print("Tails")
+
+```
+
+You can also generate ramdom float number by using the random.random. The below code will print from `[0, 1)`
+
+```python
+import random
+
+number = random.random
+print(number)
+
+# This will print any random number from 0 till 1 (1 not included)
+```
+
+You can learn more about it by [Clicking Here](https://www.askpython.com/?s=random+module)
