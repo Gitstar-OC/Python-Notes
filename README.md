@@ -292,7 +292,19 @@ You can also get the items in the list from the last order, you just need to sta
 lastFruit = listOfFruits[-1]
 
 print(lastFruit)
+
+# This will print mango
 ```
+
+You can also add items to the lists by using the `.append()` function
+
+```python
+listOfFruits.append("kiwi")
+
+# This will add kiwi to the list
+```
+
+**There are more built in function for list, you can see that all by [clicking here](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)**
 
 ### Nested Lists
 
@@ -304,7 +316,7 @@ vegetables = ["potato", "tomato", "brinjal", "cucumber"]
 
 groceryItems = [fruits, vegetables]
 
-print(groceryItems) # This will print both the list like this 
+print(groceryItems) # This will print both the list like this
 
 # [["apple", "banana", "mango"],  ["potato", "tomato", "brinjal", "cucumber"]]
 ```
