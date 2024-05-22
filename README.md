@@ -261,8 +261,64 @@ print(f"your score is {score}, your height is {height}, and you are winning is {
 # you just need to add infront of the first " quote symbol
 ```
 
-## Data Structures
+## Data Structure
 
+Data Structure is a way of storing and organizing data in python
+
+## Lists
+
+Used to store data in a sequence and order, you can create list by
+
+```python
+listOfFruits = ["apple", "banana", "mango"]
+
+#the list is created you can also print it
+print(listOfFruits)
+
+# This will print the whole list
+```
+
+You can get the items at a particular place by using the `[]` brackets, and the position of the elements start form zero `0`
+
+```python
+fruit1 = listOfFruits[0]
+
+print(fruit1) # This will print apple
+```
+
+You can also get the items in the list from the last order, you just need to start it from `negative 1` ( -1 )
+
+```python
+lastFruit = listOfFruits[-1]
+
+print(lastFruit)
+```
+
+### Nested Lists
+
+You can create lists inside lists which is called as nested lists, for example
+
+```python
+fruits = ["apple", "banana", "mango"]
+vegetables = ["potato", "tomato", "brinjal", "cucumber"]
+
+groceryItems = [fruits, vegetables]
+
+print(groceryItems) # This will print both the list like this 
+
+# [["apple", "banana", "mango"],  ["potato", "tomato", "brinjal", "cucumber"]]
+```
+
+You can access the items in a particular list by the following way
+
+```python
+# if you want to print tomato which is at second place of second list you will use the below code
+
+item = groceryItems[1][1]
+print(item)
+
+# The above code will print tomato
+```
 
 ## Comment
 
