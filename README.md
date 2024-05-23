@@ -23,7 +23,7 @@
   - [str()](#str)
   - [sorted()](#sorted)
   - [max() and min()](#max-and-min)
-  - [Some other built in functions](#this-is-a-link-`for`-all-built-in-functions-in-python)
+  - [Some other built in functions](#this-is-a-link-for-all-built-in-functions-in-python)
 - [Writing good code](#writing-good-code)
 - [Return Statement](#return)
 - [Mathematical Operators](#mathematical-operators)
@@ -49,7 +49,7 @@
 - [Loops](#loops)
   - [For Loop](#for-loop)
   - [While Loop](#while-loop)
-  - [Nested Loop](#nested-loop)
+  <!-- [Nested Loop](#nested-loop) --> 
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
@@ -1629,7 +1629,7 @@ while total > 0:
 ```
 
 [**_&#x25B2; Go to Overview_**](#overview)
-
+<!-- 
 ### Nested Loops
 
-[**_&#x25B2; Go to Overview_**](#overview)
+[**_&#x25B2; Go to Overview_**](#overview) -->
