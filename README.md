@@ -9,7 +9,7 @@
   - [Common Syntax Errors](#common-syntax-errors)
   - [Common Semantic Errors](#common-semantic-errors)
 - [Python Syntax](#python-syntax)
-- [Data Types](#data-types)123_456_789
+- [Data Types](#data-types)
   - [f-String](#f-string)
 - [Data Structures](#data-structure)
 - [Comments](#comment)
@@ -46,6 +46,10 @@
   - [If](#if)
   - [Else](#else)
   - [Elif](#elif)
+- [Loops](#loops)
+  - [For Loop](#for-loop)
+  - [While Loop](#while-loop)
+  - [Nested Loop](#nested-loop)
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
@@ -1574,3 +1578,5 @@ print(number)
 ```
 
 You can learn more about it by [Clicking Here](https://www.askpython.com/?s=random+module)
+
+[**_&#x25B2; Go to Overview_**](#overview)
