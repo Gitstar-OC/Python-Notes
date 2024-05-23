@@ -23,7 +23,7 @@
   - [str()](#str)
   - [sorted()](#sorted)
   - [max() and min()](#max-and-min)
-  - [Some other built in functions](#this-is-a-link-for-all-built-in-functions-in-python)
+  - [Some other built in functions](#this-is-a-link-`for`-all-built-in-functions-in-python)
 - [Writing good code](#writing-good-code)
 - [Return Statement](#return)
 - [Mathematical Operators](#mathematical-operators)
@@ -55,11 +55,11 @@
 
 ## Quicknote
 
-Python is a general-purpose programming language used for scripting, automation, and developing various applications. It's compatible with Windows, Linux, and macOS, and runs on servers, workstations, PCs, mobile devices, and IoT.
+Python is a general-purpose programming language used `for` scripting, automation, and developing various applications. It's compatible with Windows, Linux, and macOS, and runs on servers, workstations, PCs, mobile devices, and IoT.
 
 ### Python is
 
-- General purpose and widely used for scripting.
+- General purpose and widely used `for` scripting.
 - Compatible with various operating systems.
 - Utilized in IT support, system administration, web development, machine learning, and more.
 - Beginner-friendly with English-like syntax.
@@ -101,17 +101,17 @@ When working with code blocks, be mindful of syntax and semantic errors, and the
 
 ## Python Syntax
 
-Python is a flexible programming language used in various fields like software development, machine learning, and data analysis. It's highly popular among data professionals, so understanding its basic syntax and meaning is crucial for your career growth. This reading discusses Python's syntax and meaning, stressing the importance of practice and exposure to code. Syntax includes words representing objects and commands, while punctuation provides structure and context. The meaning conveyed by syntax, known as semantics, is best learned through hands-on experience. Additionally, following established guidelines ensures consistent style within the language.
+Python is a flexible programming language used in various fields like software development, machine learning, and data analysis. It's highly popular among data professionals, so understanding its basic syntax and meaning is crucial `for` your career growth. This reading discusses Python's syntax and meaning, stressing the importance of practice and exposure to code. Syntax includes words representing objects and commands, while punctuation provides structure and context. The meaning conveyed by syntax, known as semantics, is best learned through hands-on experience. Additionally, following established guidelines ensures consistent style within the language.
 
 - **_Variables:_** Represent data stored as strings, tuples, dictionaries, lists, and objects.
 
  > (note: future readings explain these categories you can see them now by clicking on them!)
 
-- **_Keywords:_** Special words that are reserved for specific purposes and that can only be used for those purposes
-for ex => `in, not, or, for, while, return`
+- **_Keywords:_** Special words that are reserved `for` specific purposes and that can only be used `for` those purposes
+`for` ex => `in, not, or, `for`, while, return`
 
 - **_Operators:_** Symbols that perform operations on objects and values
-for ex => `+, -, *, /, **, %, //, >, <, ==`
+`for` ex => `+, -, *, /, **, %, //, >, <, ==`
 
 - **_Expressions:_** A combination of numbers, symbols, and variables to compute and return a result upon evaluation
 
@@ -139,7 +139,7 @@ else:
    print('Number is negative.')
 ```
 
-As you’ll surely discover, Python generates syntax errors for incorrectly used keywords and syntax.
+As you’ll surely discover, Python generates syntax errors `for` incorrectly used keywords and syntax.
 
 Example:
 
@@ -161,7 +161,7 @@ When assigning names to objects, programmers adhere to a set of rules and conven
 
 - Descriptive names are better than cryptic abbreviations because they help other programmers (and you) read and interpret your code. For example, student_name is better than sn. It may feel excessive when you write it, but when you return to your code you’ll find it much easier to understand.
 
-Tim Peters, a Python programmer, wrote this now-famous “poem” of guiding principles for coding in Python:
+Tim Peters, a Python programmer, wrote this now-famous “poem” of guiding principles `for` coding in Python:
 
 <details> <summary> The Zen of Python </summary>
 
@@ -205,13 +205,13 @@ _Namespaces are one honking great idea -- let's do more of those!_
 
 </details>
 
-Finally, it’s helpful to bookmark the [PEP 8 Style Guide for Python](https://peps.python.org/pep-0008/)  so you can reference it as needed. This reading is limited in scope, and PEP 8 is a more exhaustive resource for style-related matters. PEP stands for Python Enhancement Proposals. These are a running catalog of ways to improve or standardize Python as a language. Because Python is open source, PEP offers a framework to guide developers and build consensus around ideas. It’s a useful and trusted resource.
+Finally, it’s helpful to bookmark the [PEP 8 Style Guide `for` Python](https://peps.python.org/pep-0008/)  so you can reference it as needed. This reading is limited in scope, and PEP 8 is a more exhaustive resource `for` style-related matters. PEP stands `for` Python Enhancement Proposals. These are a running catalog of ways to improve or standardize Python as a language. Because Python is open source, PEP offers a framework to guide developers and build consensus around ideas. It’s a useful and trusted resource.
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
 ## Data Types
 
-In Python, data types are used to represent different kinds of information. Understanding these types is fundamental for effective programming. Here are the common data types:
+In Python, data types are used to represent different kinds of information. Understanding these types is fundamental `for` effective programming. Here are the common data types:
 
 - **String:** Represents text enclosed in quotes.
 
@@ -244,7 +244,7 @@ print(jadu)
 
 **Mixing Data Types:** Python doesn't allow mixing different data types in calculations. Combining an integer and a string will result in an error.
 
-**Using the Type Function:** The type() function is handy for determining the data type of a value.
+**Using the Type Function:** The type() function is handy `for` determining the data type of a value.
 
 **Error Messages:** Errors are common in programming and provide clues to help you fix mistakes. Carefully reading error messages helps in understanding the problem.
 
@@ -308,11 +308,11 @@ listOfFruits.append("kiwi")
 # This will add kiwi to the list
 ```
 
-**There are more built in function for list, you can see that all by [clicking here](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)**
+**There are more built in function `for` list, you can see that all by [clicking here](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)**
 
 ### Nested Lists
 
-You can create lists inside lists which is called as nested lists, for example
+You can create lists inside lists which is called as nested lists, `for` example
 
 ```python
 fruits = ["apple", "banana", "mango"]
@@ -347,7 +347,7 @@ Python
 """
 ```
 
-Including comments in your code offers numerous benefits. They significantly improve readability by providing additional context and explanations, making it easier for developers to understand the purpose and functionality of different sections. Comments serve as invaluable documentation, clarifying the logic, algorithms, and complex operations performed, thus aiding in debugging and troubleshooting.
+Including comments in your code offers numerous benefits. They significantly improve readability by providing additional context and explanations, making it easier `for` developers to understand the purpose and functionality of different sections. Comments serve as invaluable documentation, clarifying the logic, algorithms, and complex operations performed, thus aiding in debugging and troubleshooting.
 
 - So use comments in your code, it makes your code better.
 
@@ -372,7 +372,7 @@ Functions in Python are reusable blocks of code that perform a specific task. Th
 
 ### Defining Functions
 
-Functions in Python are defined using the `def` keyword followed by the function name and parentheses containing any parameters `(parameter (argument) -  a value passed into a function for use within the function)`. The function body is indented beneath the function definition.
+Functions in Python are defined using the `def` keyword followed by the function name and parentheses containing any parameters `(parameter (argument) -  a value passed into a function `for` use within the function)`. The function body is indented beneath the function definition.
 
 Examples:
 
@@ -423,7 +423,7 @@ number = len(name) * 9
 print("Hello " + name + ". Your lucky number is " + str(number))
 ```
 
-Below is the same alternative for the above code using functions!
+Below is the same alternative `for` the above code using functions!
 
 ```python
 def lucky_number(name):
@@ -440,7 +440,7 @@ The both code example output the same thing, but using a function is more helpfu
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
-### lower() 
+### lower()
 
 lower() is a built in function in python, which lowercases the whole string. For example:
 
@@ -462,10 +462,10 @@ count() is a built in function in python, which is used to count the number of i
 ```python
 fruits = ['apple', 'banana', 'cherry']
 
-x = fruits.count("cherry") # This will count the number of cherry's 
+x = fruits.count("cherry") # This will count the number of cherry's
 ```
 
-```python 
+```python
 points = [1, 4, 2, 9, 7, 8, 9, 3, 1]
 
 x = points.count(9)
@@ -554,7 +554,7 @@ print(type(8))
 print(type(7.233))
 ```
 
-The above code will print `<class 'str'>` for first one, `<class 'int'>` for second, and `<class 'float'>` for the last one.
+The above code will print `<class 'str'>` `for` first one, `<class 'int'>` `for` second, and `<class 'float'>` `for` the last one.
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
@@ -578,7 +578,7 @@ same can be done and you can use `float` and `int` to change some numeral string
 
 The sorted() function sorts the components of a list. The sorted() function also works on any iterable, like a string, and returns the sorted elements in a list. By default, it sorts them in ascending order. When given an iterable that contains numbers, it sorts them from smallest to largest; this includes iterables that contain numeric data as well as iterables that contain string data beginning with numbers. An iterable that contains strings that begin with alphabetic characters will be sorted alphabetically.
 
-The sorted() function takes an iterable, like a list or a string, as an input. So, for example, you can use the following code to sort the list of login sessions from shortest to longest:
+The sorted() function takes an iterable, like a list or a string, as an input. So, `for` example, you can use the following code to sort the list of login sessions from shortest to longest:
 
 ```python
 time_list = [12, 2, 32, 19, 57, 22, 14]
@@ -595,8 +595,8 @@ print(sorted(time_list))
 print(time_list)
 ```
 
-This will output `[2, 12, 14, 19, 22, 32, 57]` for first and `
-[12, 2, 32, 19, 57, 22, 14]` for second print statement.
+This will output `[2, 12, 14, 19, 22, 32, 57]` `for` first and `
+[12, 2, 32, 19, 57, 22, 14]` `for` second print statement.
 
 The first print() function displays the sorted list. However, the second print() function, which does not include the sorted() function, displays the list as assigned to time_list in the first line of code.
 
@@ -610,7 +610,7 @@ The max() function returns the largest numeric input passed into it. The min() f
 
 The max() and min() functions accept arguments of either multiple numeric values or of an iterable like a list, and they return the largest or smallest value respectively.
 
-For example, you could use these functions to identify the longest or shortest session that a user logged in for. If a specific user logged in seven times during a week, and you stored their access times in minutes in a list, you can use the max() and min() functions to find and print their longest and shortest sessions:
+For example, you could use these functions to identify the longest or shortest session that a user logged in `for`. If a specific user logged in seven times during a week, and you stored their access times in minutes in a list, you can use the max() and min() functions to find and print their longest and shortest sessions:
 
 ```python
 time_list = [12, 2, 32, 19, 57, 22, 14]
@@ -622,7 +622,7 @@ This will print `2` as minimum from list and `57` as maximum from list.
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
-- ## [This is a link for all built in functions in python](https://docs.python.org/3/library/functions.html)
+- ## [This is a link `for` all built in functions in python](https://docs.python.org/3/library/functions.html)
 
 ## Writing Good Code
 
@@ -654,7 +654,7 @@ circle_area(5)
 #Output is 78.5
 ```
 
-Now you can understand that the above code is used for measuring area of Circle! _This is what writing good code means `code which others can understand!!`_
+Now you can understand that the above code is used `for` measuring area of Circle! _This is what writing good code means `code which others can understand!!`_
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
@@ -665,7 +665,7 @@ The `return` statement is used to return a value from a function, causing the fu
 - It can return any type of value, including integers, floats, strings, lists, and dictionaries.
 - If a function lacks a `return` statement, it will return `None` by default.
 - Multiple `return` statements can be used within a function to return different values at different points in the execution.
-- It can control the flow of execution within a function, allowing for early exits based on certain conditions.
+- It can control the flow of execution within a function, allowing `for` early exits based on certain conditions.
 
 ```python
 def calculate_area(base, height):
@@ -698,14 +698,14 @@ You can use the mathematical operators as it is in python but `PEMDAS` is used t
 2 ** 3 (2 ^ 3) #8
 ```
 
-You can also use `floor division` to print out direct result when devided by numbers, for example:
+You can also use `floor division` to print out direct result when devided by numbers, `for` example:
 
 ```python
 print(8 // 8) #This will directly print 2
 print(15 // 4) #This will directly print 3
 ```
 
-You can also devide, multiply, add or subtract the whole number after they are assigned, for example:
+You can also devide, multiply, add or subtract the whole number after they are assigned, `for` example:
 
 ```python
 result = 4
@@ -716,7 +716,6 @@ result -= 5 #Subtracts 5 from it
 ```
 
 [**_&#x25B2; Go to Overview_**](#overview)
-
 
 ## Comparing Values
 
@@ -734,7 +733,7 @@ Python uses comparison operators to check relationships between values. These op
 These operators return a Boolean value, either `True` or `False`, depending on the outcome of the comparison.
 
 `Equality`:
-Equality in Python is a bit more nuanced than simply comparing values. `While the == operator checks for value equality`, it's important to remember that different data types can have the same value but not be considered equal. For example, the integer 1 and the string "1" have the same numerical value, but they are different data types. `Therefore, 1 == "1" would evaluate to False`.
+Equality in Python is a bit more nuanced than simply comparing values. `While the == operator checks `for` value equality`, it's important to remember that different data types can have the same value but not be considered equal. For example, the integer 1 and the string "1" have the same numerical value, but they are different data types. `Therefore, 1 == "1" would evaluate to False`.
 
 `Logical Operators`:
 Python also provides logical operators that combine comparisons to create more complex conditions. These operators include:
@@ -928,7 +927,7 @@ In this reading, you will learn more about what comparison operators can and can
 
 ### PART 1: Equality == and Not Equal to != Operators with Strings
 
-In Python, you can use comparison operators to compare strings. The equality == and the not equal to `!=` operators are helpful when you need to search for a specific string in a body of text, a log file, a spreadsheet, a database, and more. You can also check user input strings to compare them to another string. Note that Boolean data types are not string data types (Boolean `True` is not equal to the string "True").
+In Python, you can use comparison operators to compare strings. The equality == and the not equal to `!=` operators are helpful when you need to search `for` a specific string in a body of text, a log file, a spreadsheet, a database, and more. You can also check user input strings to compare them to another string. Note that Boolean data types are not string data types (Boolean `True` is not equal to the string "True").
 
 **Examples:**
 
@@ -1013,7 +1012,7 @@ True
 # both strings share the initial substring "sun", but then have
 # different letters with different Unicode values in the fourth place
 # in each string. So, the fourth letters 'b' and 't' of the two
-# strings are used for the comparison. Since 'b' does not have a higher
+# strings are used `for` the comparison. Since 'b' does not have a higher
 # Unicode value than 't', the comparison returns a False result.
 print("sunbathe" > "suntan")
 False
@@ -1081,9 +1080,9 @@ Key Takeways
 | "a" == "a" | If string "a" is identical to string "a", returns True. Else, returns False.       |
 | "a" != "b" | If string "a" is not identical to string "b"                                        |
 | "a" > "b"  | If string "a" has a larger Unicode value than string "b"                            |
-| "a" >= "b" | If the Unicode value for string "a" is greater than or equal to the Unicode value of string "b" |
+| "a" >= "b" | If the Unicode value `for` string "a" is greater than or equal to the Unicode value of string "b" |
 | "a" < "b"  | If string "a" has a smaller Unicode value than string "b"                           |
-| "a" <= "b" | If the Unicode value for string "a" is smaller than or equal to the Unicode value of string "b" |
+| "a" <= "b" | If the Unicode value `for` string "a" is smaller than or equal to the Unicode value of string "b" |
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
@@ -1122,7 +1121,7 @@ valueC = -987
 valueD = 25
 valueE = -0.25
 
-# Calculate the exponent for the variables
+# Calculate the exponent `for` the variables
 aExp = valueA ** 2
 bExp = valueB ** 3
 cExp = valueC ** 4
@@ -1197,7 +1196,7 @@ First we make five different variables. They are positive, negative, and there�
 
 Then we raise each variable to a particular power. For that we call the `pow()` function with two arguments. The first is the value to exponentiate, the second the exponent. We put the outcome that `pow()` returns in variables `aExp` through `eExp`.
 
-Next several `print()` statements output both the original and `pow()`outcome. Of note is the complex number that `pow()` returned for -0.25^0.125:
+Next several `print()` statements output both the original and `pow()`outcome. Of note is the complex number that `pow()` returned `for` -0.25^0.125:
 
 ```python
 3^2 = 9
@@ -1276,7 +1275,7 @@ Then we output the original and exponentiated value with Python’s print() func
 Logical operators are used to construct more complex expressions. You can make complex comparisons by joining comparison statements together using the logical operators: `and`, `or`, `not`. Complex comparisons return a Boolean (`True` or `False`) result.
 
 - and
-  - Both sides of the statement being evaluated must be True for the whole statement to be True.
+  - Both sides of the statement being evaluated must be True `for` the whole statement to be True.
 
   - Example: (5 > 1 and 5 < 10) = True
 
@@ -1578,5 +1577,59 @@ print(number)
 ```
 
 You can learn more about it by [Clicking Here](https://www.askpython.com/?s=random+module)
+
+[**_&#x25B2; Go to Overview_**](#overview)
+
+## Loops
+
+### For Loop
+
+A `for` loop is used `for` iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
+
+This is less like the `for` keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages.
+With the `for` loop we can execute a set of statements, once `for` each item in a list, tuple, set etc.
+
+```python
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+
+# This will print out each item in the list
+```
+
+You can also loop through strings too print out all the word in an order, for example
+
+```python
+for x in "banana":
+  print(x)
+```
+
+You can also use for loop with in range to do the task for a particular number of times, for example
+
+```python
+for k in range(0, 8):
+  print(k)
+# This will print out k from 0 to 7
+```
+
+[**_&#x25B2; Go to Overview_**](#overview)
+
+### While Loop
+
+While loop operates somewhat similar to for loop, but it takes a condition to work first, for example:
+
+```python
+total = 5
+
+while total > 0:
+  print(total) # This loop will run whenever the total is greater than 0
+  total -= 1 # This will subtract one each time the loop runs.
+
+# This will print number from 5 to 1, and when the total becomes 0, the while loop will stop running.
+```
+
+[**_&#x25B2; Go to Overview_**](#overview)
+
+### Nested Loops
 
 [**_&#x25B2; Go to Overview_**](#overview)
