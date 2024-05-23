@@ -436,6 +436,83 @@ The both code example output the same thing, but using a function is more helpfu
 
 [**_&#x25B2; Go to Overview_**](#overview)
 
+### lower() 
+
+lower() is a built in function in python, which lowercases the whole string. For example:
+
+```python
+txt = "Hello my FRIENDS"
+
+x = txt.lower()
+
+print(x)
+# This will print "hello my friends"
+```
+
+[**_&#x25B2; Go to Overview_**](#overview)
+
+### count()
+
+count() is a built in function in python, which is used to count the number of item in particular list, string, tuple, number etc. . For Example:
+
+```python
+fruits = ['apple', 'banana', 'cherry']
+
+x = fruits.count("cherry") # This will count the number of cherry's 
+```
+
+```python 
+points = [1, 4, 2, 9, 7, 8, 9, 3, 1]
+
+x = points.count(9)
+# This will count the number of 9 in this whole list
+```
+
+```python
+name = "Mark Zukerberg"
+e = name.count("e")
+print(e)
+
+#This will count the number of e in the name
+```
+
+Here's a little `love calculator` made using lower(), count(), and if, else statement along with input
+
+```python
+name1 = input("what is your name?")
+name2 = input("what is your partner's or crush's name?")
+
+combinedName = name1 + name2
+lowerNames = combinedName.lower()
+
+t = lowerNames.count("t")
+r = lowerNames.count("r")
+u = lowerNames.count("u")
+e = lowerNames.count("e")
+
+firstLetter = t + r + u + e
+
+l = lowerNames.count("l")
+o = lowerNames.count("o")
+v = lowerNames.count("v")
+e = lowerNames.count("e")
+secondLetter = l + o + v + e
+
+score = int(str(firstLetter) + str(secondLetter))
+
+
+if score < 10 or score > 90:
+  print(f"Your score is {score}, you go together like coke and mentos.")
+elif score < 50 and score > 40:
+  print(f"Your score is {score}, you are alright together.")
+else:
+  print(f"Your score is {score}.")
+```
+
+
+
+[**_&#x25B2; Go to Overview_**](#overview)
+
 ### len()
 
 The len function is used to get the number of characters in a string
