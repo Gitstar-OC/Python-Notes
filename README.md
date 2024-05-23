@@ -1612,6 +1612,28 @@ for k in range(0, 8):
 # This will print out k from 0 to 7
 ```
 
+You can also use for loop for more advanced task with range for adding particular number, for example:
+
+```python
+target = input("Enter a number")
+
+total = 0
+for i in range(2, target + 1, 2):
+  total += i
+print(total)
+
+# This code will do the sum of the numbers from 2 till the even number provided
+```
+
+The additional 2 in the `range(2, target + 1, 2)` is called as scale, to change the number's by, for example:
+
+```python
+for i in range(0, 17, 3):
+  print(i)
+
+# This will print i as the table of 3 till 15
+```
+
 [**_&#x25B2; Go to Overview_**](#overview)
 
 ### While Loop
@@ -1626,6 +1648,39 @@ while total > 0:
   total -= 1 # This will subtract one each time the loop runs.
 
 # This will print number from 5 to 1, and when the total becomes 0, the while loop will stop running.
+```
+
+Here is another example which will print 5 attempts, and done when all is completed 
+
+```python
+def attempts(n):
+    x = 1
+    while x <= n:
+        print("Attempt " + str(x))
+        x += 1
+    print("Done")
+
+attempts(5)
+```
+
+Here's a code that will throw `error`
+
+```python
+username = get_username()
+while not valid_username(username):
+    print("Invalid username")
+    username = get_username()
+#This code will give an error because get_username is not defined
+```
+
+> Please note that you should define the variable before you use it or it will throw `error` like the below code
+
+```python
+while my_variable < 10:
+    print("Hello")
+    my_variable += 1
+#This code will give a NameError
+#Variable is not defined 
 ```
 
 [**_&#x25B2; Go to Overview_**](#overview)
